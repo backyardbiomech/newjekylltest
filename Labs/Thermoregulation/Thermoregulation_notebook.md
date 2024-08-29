@@ -1,3 +1,9 @@
+---
+layout: page
+title: "Thermoregulation notebook"
+math: mathjax
+permalink: /thermoregnb/
+---
 ## Thermoregulation Notebook
 You may generate the Excel sheet as part of your group, but your analysis and answers to the question below should be your own work and in your own words.
 
