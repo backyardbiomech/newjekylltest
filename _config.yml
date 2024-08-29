@@ -58,6 +58,7 @@ header_pages:
    - about.md
    - category.md
    - header1.md
+   - ThermoregulationLab.md
 
 
 relative_links:
