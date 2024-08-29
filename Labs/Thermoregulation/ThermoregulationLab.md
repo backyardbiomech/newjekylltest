@@ -157,7 +157,7 @@ Our model mice are unlike most organisms in that they lack any form of insulatio
 
 ### Data Extraction
 1. Open one of your data files on your computer using the [free LabChart Reader](https://www.adinstruments.com/support/software). 
-2. Open a DataPad viewer. Confirm or set up the following for each column:
+2. Open a DataPad viewer. Confirm or set up the following for each column (these *should* already be set up):
    1. Column A: `Selection & Active Point` : `Selection Start`
    2. Column B: `Selection & Active Point` : `Selection End`.
    3. Column C: `Selection & Active Point` : `Value`. and make sure that under `Calculation Source` that the source channel is set to `Ch 1 Temperature`.
@@ -168,11 +168,12 @@ Our model mice are unlike most organisms in that they lack any form of insulatio
     1. Repeat these 30 second selections and add to DataPad for selections starting at 2, 3, and 4 minutes after the peak.
     2. If you think you messed up, it's best to select all the rows in the DataPad, delete the data, and start selecting and adding again.
 5. View the DataPad. For each selection you will see the start and end times, the start temperature, the change in temperature, and the mean temperature during that selection (we'll only use this for ambient)
-6. Open the thermoregulation data worksheet in Excel.
-7. In DataPad, select the first row (that was the ambient temperature), copy, and paste it into the correct place in Excel.
-8. Copy the four rows representing the four 30 s selections, and paste into the proper place in Excel.
-9.  Use Excel formulas to calculate the end temperature for each of the 30 s intervals, then calculate half-life by converting the equations above into Excel formulas.
-10. Your value for half-life should be between 200 and 800 seconds. If it is not, consider possible sources of error and check your data.
+6. If it's not already, put DataPad into `cell edit mode` by clicking the button at the top: ![cell edit mode button](./imgs/datapad_cellmode.jpg)
+7. Open the thermoregulation data worksheet in Excel.
+8. In DataPad, select the five data cells in the first row (that was the ambient temperature), copy, and paste it into the correct place in Excel.
+9. Copy the four rows representing the four 30 s selections, and paste into the proper place in Excel.
+10. Use Excel formulas to calculate the end temperature for each of the 30 s intervals, then calculate half-life by converting the equations above into Excel formulas.
+11. Your value for half-life should be between 200 and 800 seconds. If it is not, consider possible sources of error and check your data.
 
 
 Your lab notebook questions ask you to make several calculations. In addition to the formula above, the following will be helpful; some algebra skills will also be helpful.
