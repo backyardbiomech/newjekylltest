@@ -1,12 +1,10 @@
 ---
 layout: page
 permalink: /thermoreg/
-title: "Thermoregulation lab"
-categories: math
+title: Thermoregulation lab
 math: mathjax
-author:
-- Jackson
 ---
+
 # Physiology Lab – Heat and Insulation
 
 ## Lab objectives:
