@@ -31,7 +31,7 @@ where $S$ is the surface area of the animal, an easy thing to measure on the cyl
 
 Should we next worry about the outside of the mouse cooling down faster than the inside of the mouse, leading to temperature gradients within the mouse?  These gradients do affect calculations of heat flux in animals, but we do not need to worry in this case.  The thermal conductivity ($k$) of our aluminum mouse ($205\ Wm^{-1}K^{-1}$) is very high compared to that of muscle and fat ($<1\ Wm^{-1}K^{-1}$), let alone air or fur, so heat will flow much more rapidly within the mouse than outside the mouse. In other words, all parts of the mouse model will stay at a uniform temperature, unlike an actual animal in which the core is generally warmer than the surface.
 
-As the above paragraphs show, the rate of conductive heat loss for animals in fluids such as air or water is fundamentally affected by the **boundary layer** around the animal.  This brings us to the next question and the next factor discussed in your textbook – **convection** – heat transfer by movement of fluid.  What if something thinned or reduced the boundary layer around an animal, bringing “room temperature” air closer to it?  This would clearly increase **conductive** heat flow into the fluid by reducing length $l$, increasing the temperature difference $T_1-T_2$, or both. Many factors can reduce the thickness of a boundary layer.  Bulk motion of the fluid such as wind or a water current can thin the boundary layer.  For example, a gentle breeze of $1\ ms^{-1}$ (equal to $2.2\ mi.\ hr^{-1}$) thins the boundary layer around your mouse from approximately $0.4\ cm$ to $0.1\ cm$. Reduction of boundary layer thickness due to external fluid motion is known as **forced convection**.  However, convection need not be forced – it occurs in many cases simply because fluids change density with changes in temperature, leading to motion.  For example, the warm air in the boundary layer next to the mouse is less dense than the cooler surrounding air. That lower density makes the warmer air rise, which then draws new cool air in towards the animal.  This type of convection is termed **natural convection** and is nearly impossible to avoid in an experiment such as the one we’ll perform in lab.  **Convection** is also difficult to model or predict with a simple equation such as the one used above for conduction, since it requires an understanding of fluid flow, which may depend a great deal on shape and orientation.  However, the effects of convection can easily be uncovered by experiments on our mouse.  Lastly, remember that convection is fundamentally linked to conduction, because of the disruption of the insulating boundary layer.
+As the above paragraphs show, the rate of conductive heat loss for animals in fluids such as air or water is fundamentally affected by the **boundary layer** around the animal.  This brings us to the next question and the next factor discussed in your textbook – **convection** – heat transfer by movement of fluid.  What if something thinned or reduced the boundary layer around an animal, bringing “room temperature” air closer to it?  This would clearly increase **conductive** heat flow into the fluid by reducing length $l$, increasing the temperature difference $T_1-T_2$, or both. Many factors can reduce the thickness of a boundary layer.  Bulk motion of the fluid such as wind or a water current can thin the boundary layer.  For example, a gentle breeze of $1\ ms^{-1}$ (equal to $ 2.2\ mi.\ hr^{-1}$ ) thins the boundary layer around your mouse from approximately $ 0.4\ cm$ to $0.1\ cm$. Reduction of boundary layer thickness due to external fluid motion is known as **forced convection**.  However, convection need not be forced – it occurs in many cases simply because fluids change density with changes in temperature, leading to motion.  For example, the warm air in the boundary layer next to the mouse is less dense than the cooler surrounding air. That lower density makes the warmer air rise, which then draws new cool air in towards the animal.  This type of convection is termed **natural convection** and is nearly impossible to avoid in an experiment such as the one we’ll perform in lab.  **Convection** is also difficult to model or predict with a simple equation such as the one used above for conduction, since it requires an understanding of fluid flow, which may depend a great deal on shape and orientation.  However, the effects of convection can easily be uncovered by experiments on our mouse.  Lastly, remember that convection is fundamentally linked to conduction, because of the disruption of the insulating boundary layer.
 
 Heat transfer by **radiation** is perhaps the least intuitive of the factors influencing heat balance in organisms.  Animals both **absorb** heat by radiation from a source such as the sun or the surroundings and **emit** by radiation into their environment.  The extent to which both occur depends on specific properties of each material and their temperatures.  The wavelength of radiation emitted by an object depends on its temperature; the hotter the object, the shorter the wavelength of the radiation it emits.  For instance, molten iron is hot enough to glow – emitting radiation in the *visible spectrum*.  Typical mammalian body temperatures are such that emitted radiation is in the mid-infra-red wavelengths; invisible to the naked eye but detectable with the appropriate type of camera or sensor.  The amount of radiation emitted or absorbed by an animal depends on its temperature, but also the **emissivity** or **absorptivity**; a sort of analogue to conductance.  Like conductance, emissivity and absorptivity are essentially bi-directional.  An animal with low conductance (good insulation) both loses and gains heat slowly; *an animal with high emissivity necessarily also has an equally high absorptivity*.  Additionally, emissivity and absorptivity are specific to wavelength.  As you may have experienced, a white cotton shirt is less absorptive than a black shirt in the visual spectrum (where much of the radiant energy from the sun lies), but both are about equally absorptive and emissive in the infra-red spectrum where mammals radiate heat. Our aluminum mice come in two phenotypes – one polished, reflective and with a low absorptivity in all wavelengths; the other is flat black with high absorptivity at all wavelengths.
 
@@ -41,7 +41,7 @@ Calculation of the amount of heat transferred by evaporation is simple, since al
 
 Our model aluminum mice cannot sweat or otherwise intentionally evaporatively cool themselves, but we can mimic natural evaporative cooling by gently wetting the mouse with cool or  warm water.
 
-The above equations are not quite sufficient to analyze the data you’ll gather during lab.  Firstly, all of them are in terms of heat flow, not the animal’s actual change in temperature in response to that heat flow.  Thus, while the equations do tell us how much heat an animal would need to produce or lose to maintain a constant temperature, they won’t be of immediate help in our experiments where we record the **temperature changes** of our “mouse” in different conditions.  To go further, we need to know the **heat capacity** of the mouse, or how much heat (energy, in *Joules* or *calories*) needs to be added or removed to change its temperature by 1°C.  The heat capacity of an object is a function of its **volume** and the **materials** it is made of.  To account for the volume, we can find the heat capacity *per cubic cm*; one cubic cm of water has a mass of 1 g. Our aluminum “mice” have a volumetric heat capacity of about  $2.4\ Jcm^{-1}°C^{-1}$. That means it takes 2.4 joules (about 1/2 a calorie) to heat up a 1 cm x 1 cm x 1 cm of aluminum from 25 °C to 26 °C. For comparison, whole-body animal heat capacity (it varies by tissue) is about $2.9\ Jcm^{-1}°C^{-1}$. By this, it would take a flux of roughly 10-14 calories (depending on size) to change a typical small mouse's body temperature by 1 °C. We can convert our **heat** flow rates, ($\dot{Q}$), into rates of **temperature** change ($\dot{T}$) by dividing heat flow by heat capacity.
+The above equations are not quite sufficient to analyze the data you’ll gather during lab.  Firstly, all of them are in terms of heat flow, not the animal’s actual change in temperature in response to that heat flow.  Thus, while the equations do tell us how much heat an animal would need to produce or lose to maintain a constant temperature, they won’t be of immediate help in our experiments where we record the **temperature changes** of our “mouse” in different conditions.  To go further, we need to know the **heat capacity** of the mouse, or how much heat (energy, in *Joules* or *calories*) needs to be added or removed to change its temperature by 1°C.  The heat capacity of an object is a function of its **volume** and the **materials** it is made of.  To account for the volume, we can find the heat capacity *per cubic cm*; one cubic cm of water has a mass of 1 g. Our aluminum “mice” have a volumetric heat capacity of about  $ 2.4\ Jcm^{-1}°C^{-1}$. That means it takes 2.4 joules (about 1/2 a calorie) to heat up a 1 cm x 1 cm x 1 cm of aluminum from 25 °C to 26 °C. For comparison, whole-body animal heat capacity (it varies by tissue) is about $2.9\ Jcm^{-1}°C^{-1}$. By this, it would take a flux of roughly 10-14 calories (depending on size) to change a typical small mouse's body temperature by 1 °C. We can convert our **heat** flow rates, ($\dot{Q}$), into rates of **temperature** change ($\dot{T}$) by dividing heat flow by heat capacity.
 
 Additionally, many of the heat flow equations predict exponential decay of the difference in temperatures between the two objects (or between the object and environment). In other words, as the temperature gradient gets smaller, the heat flow rate gets smaller, so heat flow is not linear over time. This provides an easy way to measure some of these parameters – you can measure the **half-life of the curve** instead of trying to fit an equation to all of the data.  However, we might not want to wait for long enough for a complete half-life to occur (i.e. for the temperature *difference* to decrease by one half). Instead, you can use this equation to calculate a half-life from any two points on the curve:
 
@@ -72,9 +72,9 @@ Lab tips:
 1. Try to keep your mouse from swinging on its string as this leads to additional airflow (convection) past it.
 2. Always record an ambient temperature with your probe, then insert it into your mouse while recording and add a comment to note the insertion. Wait at least 10 seconds after that comment before taking measurements.
 
-### Lab Procedure:
+## Lab Procedure:
 
-#### Overview:
+### Overview:
 In each of these experiments you will:
 
 + pull a “mouse” from the warm water bath
@@ -92,7 +92,7 @@ The temperature probe is a small, white waterproof wire which plugs into port 1 
 
 For each experiment, you want to open the `Thermoregulation Settings` file in LabChart.
 
-#### Experiment 1 – “Natural convection”
+### Experiment 1 – “Natural convection”
 In this experiment we will estimate the effect of natural convection on the effective thickness of the boundary layer around a naked silver “mouse” cooling off in room air.
 
 
@@ -107,39 +107,19 @@ In this experiment we will estimate the effect of natural convection on the effe
    1. If it goes back up and down, the probe may have moved, or someone disturbed the air around the mouse. Start again with a fresh mouse.
 9. Continue recording for **5 minutes** while trying to avoid any disturbances to the air around the mouse.
 10. After 5 minutes, stop recording and save your data using a meaningful name. I recommend `LastName_NaturalConvection.adicht`.
-11. Share that file with yourself (USB stick, email, etc). You can extract the rest of the data in the [free LabChart Reader](https://www.adinstruments.com/support/software) on your personal computer. 
+11. Share that file with yourself (USB stick, email, etc). 
 12. Take the measurements needed to calculate the surface area of the mouse
 
-##### Data Analysis
-1. Open the data file in `LabChart Reader` (or `LabChart` on a lab computer if there is time)
-2. Open a DataPad viewer. Confirm or set up the following:
-   1. Click below column label `A`, click on `Selection & Active Point`, and select `Selection Start`. 
-   2. At the top of that dialog, click on the right arrow to change to `column B`, and set it to `Selection End`.
-   3. Go to `column C` and and in `Selection and Active Point` choose `Value`, and make sure that under `Calculation Source` that the source channel is set to `Ch 1 Temperature`.
-   4. Go to `column D`, select `Statistics`,  `End Value - Start Value`, and make sure that under `Calculation Source` that the source channel is set to `Ch 1 Temperature`.
-   5. Go to `column E`, select `Statistics`, `mean`, and make sure that under `Calculation Source` that the source channel is set to `Ch 1 Temperature`.
-3. Use your cursor to select a few seconds of the ambient temperature recording. **Add to DataPad**
-4. Now select from about **1 minute after the peak temp** to about 1.5 minutes after peak temp (so select about 30 s of the graph, you don't have to be exact). **Add to DataPad**.
-    1. Repeat these 30 second selections and add to DataPad for selections starting at 2, 3, and 4 minutes after the peak.
-    2. If you think you messed up, it's best to select all the rows in the DataPad, delete the data, and start selecting and adding again.
-5. View the DataPad. For each selection you will see the start and end times, the start temperature, the change in temperature, and the mean temperature during that selection (we'll only use this for ambient)
-6. Open the thermoregulation data worksheet in Excel.
-7. In DataPad, select the first row (that was the ambient temperature), copy, and paste it into the correct place in Excel.
-8. Copy the four rows representing the four 30 s selections, and paste into the proper place in Excel.
-9. Use Excel formulas to calculate the end temperature for each of the 30 s intervals, then calculate half-life by converting the equations above into Excel formulas.
-10. Your value for half-life should be between 200 and 800 seconds. If it is not, consider possible sources of error and check your data.
-
-#### Experiment 2 – “Forced convection”
+### Experiment 2 – “Forced convection”
 Everything here is basically the same as the last experiment in terms of measurement procedures. Now, however, we’ll fan the “mouse” using a folded piece of paper to see just how much faster forced convection cools the animal, as measured by the half-life.  
 
 1. Get a new warm shiny mouse from the tank. Dry it off with a towel.
 2. Hang the mouse from the ring-stand, start recording data  while holding the temperature probe by the wire in mid-air.  Collect data for a few seconds to get a measurement of ambient air temperature.
 3. Insert the temperature probe into the center of “mouse”, add a comment like `probe inserted` to the recording, move your hands away, and continue recording. Begin gently fanning the mouse at a steady rate. Keep it up for at least 5 minutes.
-4. After 5 minutes, stop recording and save the data with a meaningful name. Share the data with yourself for analysis on your own computer.
-5. Take the measurements needed to calculate the surface area of the mouse
-6. Use the same DataPad process as above, select and save ranges of data. Copy, and paste into the appropriate places in the Excel file, then compute the four measurements of half-life under conditions of `forced convection`.
+4. After 5 minutes, stop recording and save the data with a meaningful name like `LastName forced convection.adicht`. Share the data with yourself for analysis on your own computer.
+5. Take the measurements needed to calculate the surface area of the mouse.
 
-#### Experiment 3 – “Radiant heat gain and loss”
+### Experiment 3 – “Radiant heat gain and loss”
 Next we’ll use mouse color phenotypes – the shiny type and the flat black type to examine how absorptivity and emissivity influence thermoregulation.
 
 1. Get a desk lamp and plug it in. Position it so that you will be able to get the bulb about 10 cm from a hanging mouse.
@@ -149,11 +129,10 @@ Next we’ll use mouse color phenotypes – the shiny type and the flat black ty
 5. Insert the temperature probe into the “mouse”, add a comment like `probe inserted` to the recording, move your hands away, and continue recording for 5 minutes. **DO NOT STOP THE RECORDING!
 6. Turn off your desk lamp. Insert a comment of `light off` in LabChart.
 7. Allow recording to continue for another 5 minutes with the light off, then stop it and save the data file with a meaningful name.
-8. Perform steps 1-7 using a shiny mouse. Share both files with yourself for analysis on another computer.
+8. Perform steps 1-7 using a shiny mouse. Share both files with meaningful names with yourself for analysis on another computer.
 9. Take the measurements needed to calculate the surface area of the mouse.
-10. Using the same DataPad process as above, select and save ranges of data. Copy, and paste into the appropriate places in the Excel file, then compute the four measurements of half-life under conditions of `radiant heat gain and loss`.
 
-#### Experiment 4 – “Evaporative heat loss” Optional if sufficient time
+### Experiment 4 – “Evaporative heat loss” Optional if sufficient time
 Our mouse should cool down much more rapidly if it uses evaporative cooling.  We’ll mimic mouse sweating (or panting) by giving the mouse a wet coat to hold liquid water next to its body and let it evaporate.
 
 1. Get a shiny mouse from the tank. DON'T dry it off. Instead, while its wet, wrap it with a single layer of Kimwipes (cut to size). Ensure the paper is fully wet. Add some drops from the water bath if necessary.
@@ -162,10 +141,9 @@ Our mouse should cool down much more rapidly if it uses evaporative cooling.  We
 5. Record for 5 minutes, the stop. Save your data file with a meaningful name.
 6. Share the file with yourself for analysis on another computer.
 7. Take the measurements needed to calculate the surface area of the mouse.
-8. Using the same DataPad process as above, select and save ranges of data. Copy, and paste into the appropriate places in the Excel file, then compute the four measurements of half-life under conditions of `evaporative heat loss`.
 
 
-#### Experiment 5 – “Fleecy mouse” Optional if time permits
+### Experiment 5 – “Fleecy mouse” Optional if time permits
 Our model mice are unlike most organisms in that they lack any form of insulation, fur or otherwise.  Here we’ll mimic the effect of one of the better biological insulators by wrapping our mouse in a small blanket.
 
 1. Get a shiny mouse from the tank. Dry it off with a towel. Wrap it in a piece of cloth towel or fleece, held on with a rubber band.
@@ -174,10 +152,28 @@ Our model mice are unlike most organisms in that they lack any form of insulatio
 4. Record for 5 minutes, the stop. Save your data file with a meaningful name.
 5. Share the file with yourself for analysis on another computer.
 6. Take the measurements needed to calculate the surface area of the mouse
-7. Using the same DataPad process as above, select and save ranges of data. Copy, and paste into the appropriate places in the Excel file, then compute the four measurements of half-life under conditions of `insulation`.
 
+## Data analysis & calculations
 
-### Data analysis & calculations
+### Data Extraction
+1. Open one of your data files on your computer using the [free LabChart Reader](https://www.adinstruments.com/support/software). 
+2. Open a DataPad viewer. Confirm or set up the following for each column:
+   1. Column A: `Selection & Active Point` : `Selection Start`
+   2. Column B: `Selection & Active Point` : `Selection End`.
+   3. Column C: `Selection & Active Point` : `Value`. and make sure that under `Calculation Source` that the source channel is set to `Ch 1 Temperature`.
+   4. Column D: `Statistics`: `End Value - Start Value`, and make sure that under `Calculation Source` that the source channel is set to `Ch 1 Temperature`.
+   5. Column E: `Statistics`: `mean`, and make sure that under `Calculation Source` that the source channel is set to `Ch 1 Temperature`.
+3. Use your cursor to select a few seconds of the ambient temperature recording from the graph. **Add to DataPad**
+4. Now select from about **1 minute after the peak temp** to about 1.5 minutes after peak temp (so select about 30 s of the graph, you don't have to be exact). **Add to DataPad**.
+    1. Repeat these 30 second selections and add to DataPad for selections starting at 2, 3, and 4 minutes after the peak.
+    2. If you think you messed up, it's best to select all the rows in the DataPad, delete the data, and start selecting and adding again.
+5. View the DataPad. For each selection you will see the start and end times, the start temperature, the change in temperature, and the mean temperature during that selection (we'll only use this for ambient)
+6. Open the thermoregulation data worksheet in Excel.
+7. In DataPad, select the first row (that was the ambient temperature), copy, and paste it into the correct place in Excel.
+8. Copy the four rows representing the four 30 s selections, and paste into the proper place in Excel.
+9.  Use Excel formulas to calculate the end temperature for each of the 30 s intervals, then calculate half-life by converting the equations above into Excel formulas.
+10. Your value for half-life should be between 200 and 800 seconds. If it is not, consider possible sources of error and check your data.
+
 
 Your lab notebook questions ask you to make several calculations. In addition to the formula above, the following will be helpful; some algebra skills will also be helpful.
 
