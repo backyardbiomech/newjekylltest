@@ -9,7 +9,7 @@ author:
 
 >📝 Recommend to use the relative link markdown syntax
 
-- link to a file in pages: [this is the link](../_pages/ThermoregulationLab.md)
+- link to a file in pages: [this is the link](../ThermoregulationLab.md)
 
 ## Relative link markdown syntax  
 
