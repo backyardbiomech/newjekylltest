@@ -16,3 +16,13 @@ You can find the source code for Jekyll at GitHub:
 
 
 [jekyll-organization]: https://github.com/jekyll
+
+# Some mathjax
+
+inline $a+b=c$ mathjax
+
+a big equation
+
+$$
+\frac{5^2}{4}
+$$
