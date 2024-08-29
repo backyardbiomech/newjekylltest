@@ -12,7 +12,7 @@ categories:
 - link to an image file : the same syntax in [link](./_posts/2022-03-27-image-link.md)
 
 
-
+- link to a file in pages: [this is the link](./_pages/ThermoregulationLab.md)
 
 [image link demo](./_posts/2022-03-27-image-link.md)
 
