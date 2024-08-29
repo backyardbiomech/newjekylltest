@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /thermoreg/
 title: "Thermoregulation lab"
 categories: math
 math: mathjax
