@@ -58,6 +58,7 @@ In other words, with an original temperature gradient of $43.7 - 23.2 = 20.5 °C
 #### Terminology and Equations
 
 **Rate of heat transfer by conduction**: 
+
 $$\dot{Q} = kS\frac{T_2-T_1}{l}$$
 
 + $\dot{Q}$ = rate of heat transfer ($Js^{-1}$)
@@ -126,10 +127,10 @@ Next we’ll use mouse color phenotypes – the shiny type and the flat black ty
 2. Get a flat black mouse from the tank. Dry it off with a towel.
 3. Hang the mouse from the ring-stand and start recording data while holding the temperature probe by the wire in mid-air. Collect data for a few seconds to get a measurement of room air temperature.
 4. Turn on your desk lamp and point it at the mouse.  Position the bulb about 10 cm away from the side of the mouse (not the end, and definitely not the wire).
-5. Insert the temperature probe into the “mouse”, add a comment like `probe inserted` to the recording, move your hands away, and continue recording for 5 minutes. **DO NOT STOP THE RECORDING!
+5. Insert the temperature probe into the “mouse”, add a comment like `probe inserted` to the recording, move your hands away, and continue recording for 5 minutes. **DO NOT STOP THE RECORDING!**
 6. Turn off your desk lamp. Insert a comment of `light off` in LabChart.
 7. Allow recording to continue for another 5 minutes with the light off, then stop it and save the data file with a meaningful name.
-8. Perform steps 1-7 using a shiny mouse. Share both files with meaningful names with yourself for analysis on another computer.
+8. *Perform steps 1-7 using a shiny mouse* in a new data file. Share both files with meaningful names with yourself for analysis on another computer.
 9. Take the measurements needed to calculate the surface area of the mouse.
 
 ### Experiment 4 – “Evaporative heat loss” Optional if sufficient time
@@ -170,10 +171,9 @@ Our model mice are unlike most organisms in that they lack any form of insulatio
 5. View the DataPad. For each selection you will see the start and end times, the start temperature, the change in temperature, and the mean temperature during that selection (we'll only use this for ambient)
 6. If it's not already, put DataPad into `cell edit mode` by clicking the button at the top: ![cell edit mode button](./imgs/datapad_cellmode.jpg)
 7. Open the thermoregulation data worksheet in Excel.
-8. In DataPad, select the five data cells in the first row (that was the ambient temperature), copy, and paste it into the correct place in Excel.
-9. Copy the four rows representing the four 30 s selections, and paste into the proper place in Excel.
-10. Use Excel formulas to calculate the end temperature for each of the 30 s intervals, then calculate half-life by converting the equations above into Excel formulas.
-11. Your value for half-life should be between 200 and 800 seconds. If it is not, consider possible sources of error and check your data.
+8. In DataPad, select the five rows and five columns of data cells, copy, and paste it into the correct place in Excel so it lines up with the row and column titles.
+9.  Use Excel formulas to calculate the end temperature for each of the 30 s intervals, then calculate half-life by converting the equations above into Excel formulas.
+10. Your value for half-life should be between 200 and 800 seconds. If it is not, consider possible sources of error and check your data.
 
 
 Your lab notebook questions ask you to make several calculations. In addition to the formula above, the following will be helpful; some algebra skills will also be helpful.
