@@ -170,7 +170,7 @@ Our model mice are unlike most organisms in that they lack any form of insulatio
     2. If you think you messed up, it's best to select all the rows in the DataPad, delete the data, and start selecting and adding again.
 5. View the DataPad. For each selection you will see the start and end times, the start temperature, the change in temperature, and the mean temperature during that selection (we'll only use this for ambient)
 6. If it's not already, put DataPad into `cell edit mode` by clicking the button at the top: ![cell edit mode button](./imgs/datapad_cellmode.jpg)
-7. Open the (thermoregulation data worksheet)[./Thermoregulation_analysis_template.xlsx] in Excel.
+7. Open the [thermoregulation data worksheet](./Thermoregulation_analysis_template.xlsx) in Excel.
 8. In DataPad, select the five rows and five columns of data cells, copy, and paste it into the correct place in Excel so it lines up with the row and column titles.
 9.  Use Excel formulas to calculate the end temperature for each of the 30 s intervals, then calculate half-life by converting the equations above into Excel formulas.
 10. Your value for half-life should be between 200 and 800 seconds. If it is not, consider possible sources of error and check your data.
