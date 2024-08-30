@@ -52,6 +52,7 @@ minima:
 theme: minima
 header_pages:
    - index.md
+   - Labs/BIOL306_toc.md
 #   - index_image.md
 #   - about.md
 #   - category.md
