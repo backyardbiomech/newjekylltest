@@ -8,7 +8,7 @@ math: katex
 
 + [Lab Procedure](#lab-procedure)
 + [Data Analysis](#data-analysis--calculations)
-+ 
+
 ## Lab objectives:
 
 The goal of this lab exercise is to gain a practical understanding of the factors that influence heat loss and gain in animals as well as their relative importance.
