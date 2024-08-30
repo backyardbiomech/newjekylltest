@@ -1,11 +1,9 @@
 ---
 layout: page
 permalink: /thermoreg/
-title: Thermoregulation lab
+title: Physiology Lab – Thermoregulation
 math: katex
 ---
-
-# Physiology Lab – Heat and Insulation
 
 ## Lab objectives:
 
