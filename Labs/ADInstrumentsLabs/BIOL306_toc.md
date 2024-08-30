@@ -13,3 +13,4 @@ permalink: /labtoc/
     + [doc](./Thermoregulation/Thermoregulation_notebook.docx)
     + [Analysis Google Sheet](https://docs.google.com/spreadsheets/d/1KjUse3pRNi_Rz74nDRreTVSwrUjs66wZl6SWoyt1j34/edit?usp=sharing)
 3. [Electromyography Lab](./Electromyography/Electromyography.md)
+    + [notebook](./Electromyography/Electromyography_notebook.md)
