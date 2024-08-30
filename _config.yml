@@ -56,8 +56,7 @@ header_pages:
 #   - about.md
 #   - category.md
 #   - header1.md
-#   - ThermoregulationLab.md
-    - ./Labs/Labtoc.md
+    - Labs/Labtoc.md
 
 
 relative_links:
