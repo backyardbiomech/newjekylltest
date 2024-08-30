@@ -180,7 +180,7 @@ Our model mice are unlike most organisms in that they lack any form of insulatio
 
 Your lab notebook ([Download the Word document](./Thermoregulation_notebook.docx)) asks you to make several calculations. In addition to the formula above, the following will be helpful; some algebra skills will also be helpful.
 
-Your calculations in the Excel sheet calculated the temperature half life based on the **data**, but note that to do those calculations you didn't have to use conductivity, heat capacity, surface area, or anything else. 
+Your calculations in the Google sheet calculated the temperature half life based on the **data**, but note that to do those calculations you didn't have to use conductivity, heat capacity, surface area, or anything else. 
 
 There are other formula that you could use, if you knew the specific measurements, to **predict** half life. For example, to predict the half-life of cooling due to conductive heat loss:
 
