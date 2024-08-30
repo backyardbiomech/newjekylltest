@@ -2,7 +2,7 @@
 layout: page
 title: "Thermoregulation notebook"
 math: katex
-permalink: /thermoreg_notebook/
+permalink: /thermoreg_nb/
 ---
 ## Thermoregulation Notebook
 You may work the Excel sheet as part of your group, but your analysis and answers to the questions below should be your own work and in your own words.

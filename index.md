@@ -7,4 +7,4 @@ math: katex
 
 + BIOL 206 Labs
 + BIOL 207 Labs
-+ [BIOL 306 Labs](./Labs/BIOL306_toc.md)
++ [BIOL 306 Labs](./Labs/ADInstrumentsLabs/BIOL306_toc.md)
