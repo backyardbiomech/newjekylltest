@@ -1,3 +1,10 @@
+---
+layout: page
+permalink: /electromyography/
+title: Physiology Lab – Electromyography
+math: katex
+---
+
 **Electromyography**
 
 # In this experiment, you will explore the electrical activity of skeletal muscle for both voluntary and evoked muscle actions and will learn how to record an electromyogram, or EMG. From the data, you will attempt to measure nerve conduction velocity.
