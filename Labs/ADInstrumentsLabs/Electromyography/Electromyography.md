@@ -1,10 +1,3 @@
----
-layout: page
-permalink: /electromyography/
-title: Physiology Lab – Electromyography
-math: katex
----
-
 **Electromyography**
 
 # In this experiment, you will explore the electrical activity of skeletal muscle for both voluntary and evoked muscle actions and will learn how to record an electromyogram, or EMG. From the data, you will attempt to measure nerve conduction velocity.
@@ -21,9 +14,7 @@ sclerosis: Lou Gehrig\'s disease). In the case of nerve injury, the
 actual site of nerve damage can often be located.
 
 ![](./media/image1.png){width="4.615972222222222in"
-height="2.140277777777778in"} 
-
-Skeletal muscles do the majority of the
+height="2.140277777777778in"}Skeletal muscles do the majority of the
 work for locomotion and support of the animal skeleton. The skeletal
 muscles produce movement, maintain posture, and assist with body
 temperature maintenance, among other actions. Skeletal (striated)
@@ -569,66 +560,115 @@ denotes a stimulus artifact*
 
 #### Table 1. Force Produced by Adding Books
 
-+-------------------------------+--------------------------------------+
-|                               | **RMS Biceps Amplitude**             |
-|                               |                                      |
-|                               | **(mV.s)**                           |
-+:=============================:+======================================+
-| **One Book**                  |                                      |
-+-------------------------------+--------------------------------------+
-| **Two Books**                 |                                      |
-+-------------------------------+--------------------------------------+
-| **Three Books**               |                                      |
-+-------------------------------+--------------------------------------+
-| **Four Books**                |                                      |
-+-------------------------------+--------------------------------------+
+<table>
+<colgroup>
+<col style="width: 45%" />
+<col style="width: 54%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: center;"></th>
+<th style="text-align: center;"><p><strong>RMS Biceps
+Amplitude</strong></p>
+<p><strong>(mV.s)</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>One Book</strong></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Two Books</strong></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Three Books</strong></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Four Books</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
 #### Table 2. Coactivation
 
-+---------------------+-----------------------+-----------------------+
-|                     | **RMS Biceps          | **RMS Triceps         |
-|                     | Amplitude**           | Amplitude**           |
-|                     |                       |                       |
-|                     | **(mV.s)**            | **(mV.s)**            |
-+=====================+=======================+=======================+
-| **Biceps            |                       |                       |
-| Contracting**       |                       |                       |
-+---------------------+-----------------------+-----------------------+
-| **Triceps           |                       |                       |
-| Contracting**       |                       |                       |
-+---------------------+-----------------------+-----------------------+
+<table>
+<colgroup>
+<col style="width: 31%" />
+<col style="width: 34%" />
+<col style="width: 34%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: center;"></th>
+<th style="text-align: center;"><p><strong>RMS Biceps
+Amplitude</strong></p>
+<p><strong>(mV.s)</strong></p></th>
+<th style="text-align: center;"><p><strong>RMS Triceps
+Amplitude</strong></p>
+<p><strong>(mV.s)</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Biceps Contracting</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Triceps Contracting</strong></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
 #### Table 3. Evoked EMG
 
-+-----------------------------------+----------------------------------+
-| #### Stimulus Location            | **Latency (ms)**                 |
-+===================================+:================================:+
-| #### Wrist                        |                                  |
-+-----------------------------------+----------------------------------+
-| #### Elbow                        |                                  |
-+-----------------------------------+----------------------------------+
-| #### Difference                   |                                  |
-+-----------------------------------+----------------------------------+
-| **Distance Between**              | ####                             |
-|                                   |                                  |
-| **Stimulation Sites (mm)**        |                                  |
-+-----------------------------------+----------------------------------+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 49%" />
+</colgroup>
+<thead>
+<tr>
+<th><h4 id="stimulus-location">Stimulus Location</h4></th>
+<th style="text-align: center;"><strong>Latency (ms)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><h4 id="wrist">Wrist</h4></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td><h4 id="elbow">Elbow</h4></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td><h4 id="difference">Difference</h4></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td><p><strong>Distance Between</strong></p>
+<p><strong>Stimulation Sites (mm)</strong></p></td>
+<td style="text-align: center;"><h4 id="section-2"> </h4></td>
+</tr>
+</tbody>
+</table>
 
 **Table 4. Nerve Conduction Velocity**
 
-  -----------------------------------------------------------------------
-    **Group**              **Nerve Conduction Velocity (m/s)**
-  ------------- ---------------------------------------------------------
-                
-
-                
-
-                
-
-                
-
-                
-  -----------------------------------------------------------------------
+| **Group** | **Nerve Conduction Velocity (m/s)** |
+|:---------:|:-----------------------------------:|
+|           |                                     |
+|           |                                     |
+|           |                                     |
+|           |                                     |
+|           |                                     |
 
 **Study Questions**
 
