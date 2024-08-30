@@ -178,7 +178,7 @@ Our model mice are unlike most organisms in that they lack any form of insulatio
 10. Your value for half-life should be between 200 and 800 seconds. If it is not, consider possible sources of error and check your data.
 
 
-Your lab notebook questions ask you to make several calculations. In addition to the formula above, the following will be helpful; some algebra skills will also be helpful.
+Your lab notebook ([Download the Word document](./Thermoregulation_notebook.docx)) asks you to make several calculations. In addition to the formula above, the following will be helpful; some algebra skills will also be helpful.
 
 Your calculations in the Excel sheet calculated the temperature half life based on the **data**, but note that to do those calculations you didn't have to use conductivity, heat capacity, surface area, or anything else. 
 

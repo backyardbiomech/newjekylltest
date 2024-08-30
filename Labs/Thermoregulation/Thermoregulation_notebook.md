@@ -1,13 +1,13 @@
 ---
 layout: page
 title: "Thermoregulation notebook"
-math: mathjax
-permalink: /thermoregnb/
+math: katex
+permalink: /thermoreg_notebook/
 ---
 ## Thermoregulation Notebook
-You may generate the Excel sheet as part of your group, but your analysis and answers to the question below should be your own work and in your own words.
+You may work the Excel sheet as part of your group, but your analysis and answers to the questions below should be your own work and in your own words.
 
-1. In your Excel file, put in formulae to calculate the half-life for each 30 second segment of all of the treatments (it's one formula, then copy and paste). Calculate the mean half-life per treatment. Put those values below for the treatments you were able to complete:
+1. In your Excel file, I have entered the formulae to calculate the half-life for each 30 second segment of all of the treatments (it's one formula, then copy and paste). Use Excel formulae to calculate the mean half-life per treatment. Put those values below for the treatments you were able to complete:
 
 | Treatment            | Mean half life|
 |----------------------|---------------|
@@ -29,7 +29,7 @@ You may generate the Excel sheet as part of your group, but your analysis and an
 &nbsp;  
 &nbsp;  
 &nbsp;  
-2. How much thinner does the boundary layer get under conditions of forced convection? Calculate it as above but for the `forced convection` treatment.  Explain in your own words what happened to the mouse when you fan it using the “wind chill” terminology popular with TV weatherpersons throughout the nation.  Would forced convection have such a strong effect on the mouse’s temperature if the mouse were surrounded by an airtight insulating layer? 
+2. How much thinner does the boundary layer get under conditions of forced convection? Calculate it as above but for the `forced convection` treatment.  Explain in your own words what happened to the mouse when you fan it; use the “wind chill” type terminology popular with TV weatherpersons throughout the nation.  Would forced convection have such a strong effect on the mouse’s temperature if the mouse were surrounded by an airtight insulating layer? 
 &nbsp;  
 &nbsp;  
 &nbsp;  
