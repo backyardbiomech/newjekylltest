@@ -172,10 +172,10 @@ Our model mice are unlike most organisms in that they lack any form of insulatio
     2. If you think you messed up, it's best to select all the rows in the DataPad, delete the data, and start selecting and adding again.
 5. View the DataPad. For each selection you will see the start and end times, the start temperature, the change in temperature, and the mean temperature during that selection (we'll only use this for ambient)
 6. If it's not already, put DataPad into `cell edit mode` by clicking the button at the top: ![cell edit mode button](./imgs/datapad_cellmode.jpg)
-7. Open the [thermoregulation data worksheet](./Thermoregulation_analysis_template.xlsx) in Excel.
-8. In DataPad, select the five rows and five columns of data cells, copy, and paste it into the correct place in Excel so it lines up with the row and column titles.
-9.  Use Excel formulas to calculate the end temperature for each of the 30 s intervals, then calculate half-life by converting the equations above into Excel formulas.
-10. Your value for half-life should be between 200 and 800 seconds. If it is not, consider possible sources of error and check your data.
+7. Open the [thermoregulation data worksheet](https://docs.google.com/spreadsheets/d/1KjUse3pRNi_Rz74nDRreTVSwrUjs66wZl6SWoyt1j34/edit?usp=sharing) in Google sheets.
+8. In DataPad, select the five rows and five columns of data cells, copy, and paste it into the correct place in you Google Sheet so it lines up with the row and column titles.
+9.  The sheet already contains formulas to calculate the end temperature for each of the 30 s intervals, and then calculates half-life by converting the equations above into spreadsheet formulas. You will need to enter some other formulas based on instructions in the notebook assignment.
+10. Your value for half-life should be between 200 and 800 seconds. If it is not, consider possible sources of error and check how you extracted each interval from your traces.
 
 
 Your lab notebook ([Download the Word document](./Thermoregulation_notebook.docx)) asks you to make several calculations. In addition to the formula above, the following will be helpful; some algebra skills will also be helpful.
