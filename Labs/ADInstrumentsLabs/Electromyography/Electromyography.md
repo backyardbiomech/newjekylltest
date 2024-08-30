@@ -4,7 +4,6 @@ permalink: /electromyography/
 title: Physiology Lab – Electromyography
 math: katex
 ---
-
 **Electromyography**
 
 # In this experiment, you will explore the electrical activity of skeletal muscle for both voluntary and evoked muscle actions and will learn how to record an electromyogram, or EMG. From the data, you will attempt to measure nerve conduction velocity.
@@ -20,8 +19,8 @@ the presence, location and extent of diseases that damage muscle tissue
 sclerosis: Lou Gehrig\'s disease). In the case of nerve injury, the
 actual site of nerve damage can often be located.
 
-![](./media/image1.png){:width="443"
-height="205"}Skeletal muscles do the majority of the
+![](media/image1.png){:width="443" height="205"}
+Skeletal muscles do the majority of the
 work for locomotion and support of the animal skeleton. The skeletal
 muscles produce movement, maintain posture, and assist with body
 temperature maintenance, among other actions. Skeletal (striated)
@@ -46,8 +45,8 @@ of the muscle membrane with resultant contraction of the muscle fibers.
 
 *Figure 2. The components of a motor unit*
 
-![](./media/image2.png){:width="387"
-height="298"}During a contraction, there is synchronous
+![](media/image2.png){:width="387" height="298"}
+During a contraction, there is synchronous
 activity in a number of fibers in the same muscle. The electrical signal
 recorded from a contracting muscle is called an electromyogram, or EMG.
 The EMG provides a depiction of the timing and pattern of muscle
@@ -137,8 +136,8 @@ nerve conduction studies are usually conducted together.
     abrasion, clean the area with an alcohol pad to remove the dead skin
     cells.
 
--   ![](./media/image3.png){:width="321"
-    height="255"}***Note:** There is a video in the
+-   ![](media/image3.png){:width="321"     height="255"}
+***Note:** There is a video in the
     Multimedia folder illustrating this setup if you have further
     questions.*
 
@@ -157,9 +156,8 @@ nerve conduction studies are usually conducted together.
     connected to the Dry Earth Strap. Refer to Figures 3 and 4 for
     proper placement.
 
-    ![Description: Description:
-    Biceps-Triceps_03001](./media/image4.jpeg){:width="337"
-    height="235"}
+    ![Description: Description:     Biceps-Triceps_03001](/Users/jacksonbe3/Library/CloudStorage/Box-Box/A&P lab materials/ADInstrumentsLabs/Electromyography Mac/Student Protocol/Electromyography Student Protocol Mac_media/media/image4.jpeg){:width="337"     height="235"}
+
 
 *Figure 4. Skeletal muscle structure*
 
@@ -181,16 +179,18 @@ contraction and how contractile force changes with increasing demand.
     muscle function because it is easier to quantify. Use these two
     channels when completing your analysis.*
 
+```{=html}
 <!-- -->
-
+```
 2.  Have the volunteer sit in a relaxed position with his/her elbow bent
     90^o^ and palm facing upward. Make sure the volunteer's elbow is not
     on the table. The volunteer's other hand should grasp the wrist of
     the recorded arm. Make sure the volunteer is facing away from the
     monitor.
 
+```{=html}
 <!-- -->
-
+```
 6.  Select **Bio Amp** from the Channel 3 Channel Function pop-up menu.
     Have the volunteer make a strong contraction of the biceps muscle.
     This is done by bending the recorded arm further while resisting
@@ -228,8 +228,8 @@ contraction and how contractile force changes with increasing demand.
     placing weights on the hand gives rise to little or no activity in
     the triceps muscle.
 
-2.  ![](./media/image5.png){:width="492"
-    height="293"}Select a small part of the "Biceps"
+2.  ![](media/image5.png){:width="492"     height="293"}
+Select a small part of the "Biceps"
     activity and examine it in **Zoom View**. The raw EMG signal is
     composed of many up-and-down spikes (Figure 5).
 
@@ -252,29 +252,30 @@ In this exercise, you will examine the activity of antagonist muscles
 and the phenomenon of coactivation.
 
 1.  Click the "Home" button on the lower left corner of the screen. Open
-    the settings file "Coactivation Settings" from the **Experiments**
-    tab in the **Welcome Center**. It will be located in the folder for
-    this experiment. Make sure the data from Exercise 1 is saved.
+    > the settings file "Coactivation Settings" from the **Experiments**
+    > tab in the **Welcome Center**. It will be located in the folder
+    > for this experiment. Make sure the data from Exercise 1 is saved.
 
 2.  Have the volunteer sit in a relaxed position with his/her elbow bent
-    90^o^ and palm facing upward. Make sure the elbow is not on the
-    table. The volunteer's other hand should grasp the wrist of the
-    recorded arm. Make sure the volunteer is facing away from the
-    monitor.
+    > 90^o^ and palm facing upward. Make sure the elbow is not on the
+    > table. The volunteer's other hand should grasp the wrist of the
+    > recorded arm. Make sure the volunteer is facing away from the
+    > monitor.
 
 3.  Have the volunteer practice activating the biceps and triceps
-    immediately after one another. The volunteer should practice this
-    until it feels like both muscles are being equally activated in
-    turn. Pause shortly after each activation; this makes the data
-    clearer.
+    > immediately after one another. The volunteer should practice this
+    > until it feels like both muscles are being equally activated in
+    > turn. Pause shortly after each activation; this makes the data
+    > clearer.
 
 4.  **Start** recording. Add a **comment** with the volunteer's name,
-    and record baseline EMG for 30 seconds.
+    > and record baseline EMG for 30 seconds.
 
 5.  Add a **comment** with "activation," and have the volunteer use the
-    alternating pattern of activation for 30 seconds. **Save your data
-    when you are finished recording**. [Read "Exercise 3 Equipment
-    Setup" before disconnecting electrodes and lead wires.]{.underline}
+    > alternating pattern of activation for 30 seconds. **Save your data
+    > when you are finished recording**. [Read "Exercise 3 Equipment
+    > Setup" before disconnecting electrodes and lead
+    > wires.]{.underline}
 
 # Analysis
 
@@ -304,9 +305,8 @@ velocity.
 
 ### Equipment Setup
 
-![Description: Description:
-warng-16h](./media/image6.png){:width="15"
-height="15"} **Exercises 3 and 4 involves application
+![Description: Description: warng-16h](/Users/jacksonbe3/Library/CloudStorage/Box-Box/A&P lab materials/ADInstrumentsLabs/Electromyography Mac/Student Protocol/Electromyography Student Protocol Mac_media/media/image6.png){:width="15" height="15"}
+ **Exercises 3 and 4 involves application
 of electrical shocks to muscle through electrodes placed on the skin.
 Students who have cardiac pacemakers or who suffer from neurological or
 cardiac disorders should not volunteer for these exercises. If the
@@ -330,8 +330,8 @@ your instructor.**
     electrode attached to the volunteer at the wrist or back of the
     hand.
 
--   ![](./media/image7.png){:width="418"
-    height="214"} ***Note:** There is a video in the
+-   ![](media/image7.png){:width="418"     height="214"}
+***Note:** There is a video in the
     Multimedia folder illustrating this setup if you have further
     questions.*
 
@@ -339,7 +339,8 @@ your instructor.**
 
 *Figure 6. Some Muscles of the Forearm and Hand*
 
-### ![](./media/image8.png){:width="441" height="256"}
+### ![](media/image8.png){:width="441" height="256"}
+
 
 *Figure 7. Evoked EMG Setup at the Wrist*
 
@@ -392,15 +393,16 @@ volunteer. Some motor effects that may be observed include:
 -   ***Note:** No data will be recorded in this file. Its purpose is to
     control the Isolated Stimulator.*
 
-2.  ![](./media/image9.png){:width="369"
-    height="121"}The **Stimulator Panel** should open
+2.  ![](media/image9.png){:width="369"     height="121"}
+The **Stimulator Panel** should open
     (Figure 8). If it does not, select Stimulator Panel from the
     **Setup** menu.
 
     *Figure 8. Stimulator Panel*
 
+```{=html}
 <!-- -->
-
+```
 11. Have the volunteer sit in a relaxed position. Make sure the
     volunteer is still holding the Stimulating Bar Electrode in place
     over the median nerve.
@@ -440,8 +442,8 @@ volunteer. Some motor effects that may be observed include:
     prevent short-circuiting. Remember the two pads need to be aligned
     along the arm's length.
 
--   ![](./media/image10.png){:width="415"
-    height="190"}***Note:** Some volunteers may fail to
+-   ![](media/image10.png){:width="415"     height="190"}
+***Note:** Some volunteers may fail to
     show any thumb twitch response stimulating the median nerve. In some
     people, the abductor pollicis brevis muscle is innervated by the
     ulnar nerve instead of the median nerve. This is an example of
@@ -502,8 +504,8 @@ volunteer. Some motor effects that may be observed include:
     stimuli until a maximal response is reached, after which increasing
     the stimulus does not further increase the response amplitude.*
 
-6.  ![](./media/image11.png){:width="361"
-    height="213"}Move the Stimulating Bar Electrode
+6.  ![](media/image11.png){:width="361"     height="213"}
+Move the Stimulating Bar Electrode
     over the median nerve at the elbow. Refer to Figure 10 for proper
     placement. Mark the spot in between the pressure imprints on the
     skin. Everything else will remain the same.
@@ -550,11 +552,9 @@ volunteer. Some motor effects that may be observed include:
     nerve conduction velocity of the volunteer. Enter the velocity under
     Table 3 of the Data Notebook on page 12.
 
-    ![](./media/image12.emf)
+    ![](media/image12.emf)  ![](media/image13.png){:width="262" height="187"}
+![](media/image14.png){:width="277" height="187"}
 
-![](./media/image13.png){:width="262"
-height="187"}![](./media/image14.png){:width="277"
-height="187"}
 
 *Figure 11. Evoked EMG from wrist (right) and elbow (left). Arrow
 denotes a stimulus artifact*
@@ -573,28 +573,27 @@ denotes a stimulus artifact*
 <col style="width: 54%" />
 </colgroup>
 <thead>
-<tr>
-<th style="text-align: center;"></th>
-<th style="text-align: center;"><p><strong>RMS Biceps
-Amplitude</strong></p>
+<tr class="header">
+<th></th>
+<th><p><strong>RMS Biceps Amplitude</strong></p>
 <p><strong>(mV.s)</strong></p></th>
 </tr>
 </thead>
 <tbody>
-<tr>
-<td style="text-align: center;"><strong>One Book</strong></td>
+<tr class="odd">
+<td><strong>One Book</strong></td>
 <td></td>
 </tr>
-<tr>
-<td style="text-align: center;"><strong>Two Books</strong></td>
+<tr class="even">
+<td><strong>Two Books</strong></td>
 <td></td>
 </tr>
-<tr>
-<td style="text-align: center;"><strong>Three Books</strong></td>
+<tr class="odd">
+<td><strong>Three Books</strong></td>
 <td></td>
 </tr>
-<tr>
-<td style="text-align: center;"><strong>Four Books</strong></td>
+<tr class="even">
+<td><strong>Four Books</strong></td>
 <td></td>
 </tr>
 </tbody>
@@ -609,23 +608,21 @@ Amplitude</strong></p>
 <col style="width: 34%" />
 </colgroup>
 <thead>
-<tr>
-<th style="text-align: center;"></th>
-<th style="text-align: center;"><p><strong>RMS Biceps
-Amplitude</strong></p>
+<tr class="header">
+<th></th>
+<th><p><strong>RMS Biceps Amplitude</strong></p>
 <p><strong>(mV.s)</strong></p></th>
-<th style="text-align: center;"><p><strong>RMS Triceps
-Amplitude</strong></p>
+<th><p><strong>RMS Triceps Amplitude</strong></p>
 <p><strong>(mV.s)</strong></p></th>
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr class="odd">
 <td><strong>Biceps Contracting</strong></td>
 <td></td>
 <td></td>
 </tr>
-<tr>
+<tr class="even">
 <td><strong>Triceps Contracting</strong></td>
 <td></td>
 <td></td>
@@ -641,28 +638,28 @@ Amplitude</strong></p>
 <col style="width: 49%" />
 </colgroup>
 <thead>
-<tr>
+<tr class="header">
 <th><h4 id="stimulus-location">Stimulus Location</h4></th>
-<th style="text-align: center;"><strong>Latency (ms)</strong></th>
+<th><strong>Latency (ms)</strong></th>
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr class="odd">
 <td><h4 id="wrist">Wrist</h4></td>
-<td style="text-align: center;"></td>
+<td></td>
 </tr>
-<tr>
+<tr class="even">
 <td><h4 id="elbow">Elbow</h4></td>
-<td style="text-align: center;"></td>
+<td></td>
 </tr>
-<tr>
+<tr class="odd">
 <td><h4 id="difference">Difference</h4></td>
-<td style="text-align: center;"></td>
+<td></td>
 </tr>
-<tr>
+<tr class="even">
 <td><p><strong>Distance Between</strong></p>
 <p><strong>Stimulation Sites (mm)</strong></p></td>
-<td style="text-align: center;"><h4 id="section-2"> </h4></td>
+<td><h4 id="section-2"> </h4></td>
 </tr>
 </tbody>
 </table>
@@ -670,7 +667,7 @@ Amplitude</strong></p>
 **Table 4. Nerve Conduction Velocity**
 
 | **Group** | **Nerve Conduction Velocity (m/s)** |
-|:---------:|:-----------------------------------:|
+|-----------|-------------------------------------|
 |           |                                     |
 |           |                                     |
 |           |                                     |
