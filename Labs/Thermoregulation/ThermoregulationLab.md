@@ -2,7 +2,7 @@
 layout: page
 permalink: /thermoreg/
 title: Thermoregulation lab
-math: mathjax
+math: katex
 ---
 
 # Physiology Lab – Heat and Insulation
