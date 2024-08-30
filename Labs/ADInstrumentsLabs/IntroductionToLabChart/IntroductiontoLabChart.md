@@ -7,7 +7,7 @@ permalink: /introlabchart/
 
 ## Objectives
 
-1. Learn how to acquire data with teh PowerLab Data Acquisition Unit
+1. Learn how to acquire data with the PowerLab Data Acquisition Unit
 2. Learn how to analyze Data in LabChart
 3. Make simple recordings and measurements using the Finger Pulse Transducer
 
