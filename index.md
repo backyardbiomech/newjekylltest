@@ -1,13 +1,10 @@
 ---
 title: 🏡
-layout: home
+layout: page
 list_title: ""
 math: katex
 ---
 
-
-[View Github repository](https://github.com/jeffatoptics/jeff-minima)  &nbsp; &nbsp; &nbsp; &nbsp; [Download ZIP file](https://github.com/jeffatoptics/jeff-minima/archive/refs/heads/master.zip)
-
-## [README - support katex and mermaid with minima theme](README.md) 
-
----
++ BIOL 206 Labs
++ BIOL 207 Labs
++ [BIOL 306 Labs](./Labs/BIOL306_toc.md)

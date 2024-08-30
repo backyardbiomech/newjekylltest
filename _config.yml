@@ -51,12 +51,12 @@ minima:
 # Build settings
 theme: minima
 header_pages:
-#   - index.md
+   - index.md
 #   - index_image.md
 #   - about.md
 #   - category.md
 #   - header1.md
-    - Labs/Labtoc.md
+#    - Labs/Labtoc.md
 
 
 relative_links:
