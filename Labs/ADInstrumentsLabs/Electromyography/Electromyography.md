@@ -20,8 +20,8 @@ the presence, location and extent of diseases that damage muscle tissue
 sclerosis: Lou Gehrig\'s disease). In the case of nerve injury, the
 actual site of nerve damage can often be located.
 
-![](./media/image1.png){width="4.615972222222222in"
-height="2.140277777777778in"}Skeletal muscles do the majority of the
+![](./media/image1.png){:width="443"
+height="205"}Skeletal muscles do the majority of the
 work for locomotion and support of the animal skeleton. The skeletal
 muscles produce movement, maintain posture, and assist with body
 temperature maintenance, among other actions. Skeletal (striated)
@@ -46,8 +46,8 @@ of the muscle membrane with resultant contraction of the muscle fibers.
 
 *Figure 2. The components of a motor unit*
 
-![](./media/image2.png){width="4.035416666666666in"
-height="3.1083333333333334in"}During a contraction, there is synchronous
+![](./media/image2.png){:width="387"
+height="298"}During a contraction, there is synchronous
 activity in a number of fibers in the same muscle. The electrical signal
 recorded from a contracting muscle is called an electromyogram, or EMG.
 The EMG provides a depiction of the timing and pattern of muscle
@@ -137,8 +137,8 @@ nerve conduction studies are usually conducted together.
     abrasion, clean the area with an alcohol pad to remove the dead skin
     cells.
 
--   ![](./media/image3.png){width="3.348611111111111in"
-    height="2.6645833333333333in"}***Note:** There is a video in the
+-   ![](./media/image3.png){:width="321"
+    height="255"}***Note:** There is a video in the
     Multimedia folder illustrating this setup if you have further
     questions.*
 
@@ -158,8 +158,8 @@ nerve conduction studies are usually conducted together.
     proper placement.
 
     ![Description: Description:
-    Biceps-Triceps_03001](./media/image4.jpeg){width="3.515277777777778in"
-    height="2.453472222222222in"}
+    Biceps-Triceps_03001](./media/image4.jpeg){:width="337"
+    height="235"}
 
 *Figure 4. Skeletal muscle structure*
 
@@ -228,8 +228,8 @@ contraction and how contractile force changes with increasing demand.
     placing weights on the hand gives rise to little or no activity in
     the triceps muscle.
 
-2.  ![](./media/image5.png){width="5.1305555555555555in"
-    height="3.061111111111111in"}Select a small part of the "Biceps"
+2.  ![](./media/image5.png){:width="492"
+    height="293"}Select a small part of the "Biceps"
     activity and examine it in **Zoom View**. The raw EMG signal is
     composed of many up-and-down spikes (Figure 5).
 
@@ -305,8 +305,8 @@ velocity.
 ### Equipment Setup
 
 ![Description: Description:
-warning-16h](./media/image6.png){width="0.16527777777777777in"
-height="0.16527777777777777in"} **Exercises 3 and 4 involves application
+warng-16h](./media/image6.png){:width="15"
+height="15"} **Exercises 3 and 4 involves application
 of electrical shocks to muscle through electrodes placed on the skin.
 Students who have cardiac pacemakers or who suffer from neurological or
 cardiac disorders should not volunteer for these exercises. If the
@@ -330,8 +330,8 @@ your instructor.**
     electrode attached to the volunteer at the wrist or back of the
     hand.
 
--   ![](./media/image7.png){width="4.3590277777777775in"
-    height="2.238888888888889in"}***Note:** There is a video in the
+-   ![](./media/image7.png){:width="418"
+    height="214"} ***Note:** There is a video in the
     Multimedia folder illustrating this setup if you have further
     questions.*
 
@@ -339,7 +339,7 @@ your instructor.**
 
 *Figure 6. Some Muscles of the Forearm and Hand*
 
-### ![](./media/image8.png){width="4.602777777777778in" height="2.6666666666666665in"}
+### ![](./media/image8.png){:width="441" height="256"}
 
 *Figure 7. Evoked EMG Setup at the Wrist*
 
@@ -392,8 +392,8 @@ volunteer. Some motor effects that may be observed include:
 -   ***Note:** No data will be recorded in this file. Its purpose is to
     control the Isolated Stimulator.*
 
-2.  ![](./media/image9.png){width="3.8465277777777778in"
-    height="1.270138888888889in"}The **Stimulator Panel** should open
+2.  ![](./media/image9.png){:width="369"
+    height="121"}The **Stimulator Panel** should open
     (Figure 8). If it does not, select Stimulator Panel from the
     **Setup** menu.
 
@@ -440,8 +440,8 @@ volunteer. Some motor effects that may be observed include:
     prevent short-circuiting. Remember the two pads need to be aligned
     along the arm's length.
 
--   ![](./media/image10.png){width="4.332638888888889in"
-    height="1.9805555555555556in"}***Note:** Some volunteers may fail to
+-   ![](./media/image10.png){:width="415"
+    height="190"}***Note:** Some volunteers may fail to
     show any thumb twitch response stimulating the median nerve. In some
     people, the abductor pollicis brevis muscle is innervated by the
     ulnar nerve instead of the median nerve. This is an example of
@@ -502,8 +502,8 @@ volunteer. Some motor effects that may be observed include:
     stimuli until a maximal response is reached, after which increasing
     the stimulus does not further increase the response amplitude.*
 
-6.  ![](./media/image11.png){width="3.765277777777778in"
-    height="2.2263888888888888in"}Move the Stimulating Bar Electrode
+6.  ![](./media/image11.png){:width="361"
+    height="213"}Move the Stimulating Bar Electrode
     over the median nerve at the elbow. Refer to Figure 10 for proper
     placement. Mark the spot in between the pressure imprints on the
     skin. Everything else will remain the same.
@@ -552,9 +552,9 @@ volunteer. Some motor effects that may be observed include:
 
     ![](./media/image12.emf)
 
-![](./media/image13.png){width="2.7319444444444443in"
-height="1.948611111111111in"}![](./media/image14.png){width="2.8868055555555556in"
-height="1.948611111111111in"}
+![](./media/image13.png){:width="262"
+height="187"}![](./media/image14.png){:width="277"
+height="187"}
 
 *Figure 11. Evoked EMG from wrist (right) and elbow (left). Arrow
 denotes a stimulus artifact*
