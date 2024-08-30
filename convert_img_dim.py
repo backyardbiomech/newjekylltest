@@ -73,7 +73,7 @@ def process_image_tags(md_path):
             new_tag = re.sub(r'height=".*?in"', f'height="{height_in_pixels}"', new_tag, flags=re.DOTALL)
 
         # Format the tag for kramdown and add a newline after the closing brace
-        new_tag = new_tag.replace("{", "{:").replace("in", "").replace("\n", " ") + "\n"
+        new_tag = new_tag.replace("{", "{:").replace("in", "").replace("\n", " ") + "\n\n"
 
         # Replace the original tag in the data
         data = data.replace(tag, new_tag)

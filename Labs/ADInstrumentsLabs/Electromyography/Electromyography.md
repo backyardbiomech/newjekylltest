@@ -252,30 +252,30 @@ In this exercise, you will examine the activity of antagonist muscles
 and the phenomenon of coactivation.
 
 1.  Click the "Home" button on the lower left corner of the screen. Open
-    > the settings file "Coactivation Settings" from the **Experiments**
-    > tab in the **Welcome Center**. It will be located in the folder
-    > for this experiment. Make sure the data from Exercise 1 is saved.
+ the settings file "Coactivation Settings" from the **Experiments**
+ tab in the **Welcome Center**. It will be located in the folder
+ for this experiment. Make sure the data from Exercise 1 is saved.
 
-2.  Have the volunteer sit in a relaxed position with his/her elbow bent
-    > 90^o^ and palm facing upward. Make sure the elbow is not on the
-    > table. The volunteer's other hand should grasp the wrist of the
-    > recorded arm. Make sure the volunteer is facing away from the
-    > monitor.
+1.  Have the volunteer sit in a relaxed position with his/her elbow bent
+ 90° and palm facing upward. Make sure the elbow is not on the
+ table. The volunteer's other hand should grasp the wrist of the
+ recorded arm. Make sure the volunteer is facing away from the
+ monitor.
 
-3.  Have the volunteer practice activating the biceps and triceps
-    > immediately after one another. The volunteer should practice this
-    > until it feels like both muscles are being equally activated in
-    > turn. Pause shortly after each activation; this makes the data
-    > clearer.
+2.  Have the volunteer practice activating the biceps and triceps
+ immediately after one another. The volunteer should practice this
+ until it feels like both muscles are being equally activated in
+ turn. Pause shortly after each activation; this makes the data
+ clearer.
 
-4.  **Start** recording. Add a **comment** with the volunteer's name,
-    > and record baseline EMG for 30 seconds.
+3.  **Start** recording. Add a **comment** with the volunteer's name,
+ and record baseline EMG for 30 seconds.
 
-5.  Add a **comment** with "activation," and have the volunteer use the
-    > alternating pattern of activation for 30 seconds. **Save your data
-    > when you are finished recording**. [Read "Exercise 3 Equipment
-    > Setup" before disconnecting electrodes and lead
-    > wires.]{.underline}
+4.  Add a **comment** with "activation," and have the volunteer use the
+ alternating pattern of activation for 30 seconds. **Save your data
+ when you are finished recording**. [Read "Exercise 3 Equipment
+ Setup" before disconnecting electrodes and lead
+ wires.]{.underline}
 
 # Analysis
 
@@ -305,7 +305,7 @@ velocity.
 
 ### Equipment Setup
 
-![Description: Description: warng-16h](/Users/jacksonbe3/Library/CloudStorage/Box-Box/A&P lab materials/ADInstrumentsLabs/Electromyography Mac/Student Protocol/Electromyography Student Protocol Mac_media/media/image6.png){:width="15" height="15"}
+![Description: Description: warng-16h](media/image6.png){:width="15" height="15"}
  **Exercises 3 and 4 involves application
 of electrical shocks to muscle through electrodes placed on the skin.
 Students who have cardiac pacemakers or who suffer from neurological or
@@ -330,26 +330,24 @@ your instructor.**
     electrode attached to the volunteer at the wrist or back of the
     hand.
 
--   ![](media/image7.png){:width="418"     height="214"}
+-   ![](media/image7.png){:width="418" height="214"}
+
 ***Note:** There is a video in the
     Multimedia folder illustrating this setup if you have further
     questions.*
 
-### 
-
 *Figure 6. Some Muscles of the Forearm and Hand*
 
-### ![](media/image8.png){:width="441" height="256"}
-
+![](media/image8.png){:width="441" height="256"}
 
 *Figure 7. Evoked EMG Setup at the Wrist*
 
-3.  Connect the Stimulating Electrode to the Isolated Stimulator output
+1.  Connect the Stimulating Electrode to the Isolated Stimulator output
     of the PowerLab. Make sure the red (positive) connector is in the
     red output and the black (negative) connector is in the black
     output.
 
-4.  Place a small amount of Electrode Cream or Electrode paste on the
+2.  Place a small amount of Electrode Cream or Electrode paste on the
     two silver pads of the Stimulating Bar Electrode and place it over
     the volunteer's median nerve at the wrist (Figure XX). The
     Stimulating Bar Electrode should lie along the long axis of the arm,
@@ -357,7 +355,7 @@ your instructor.**
     the inner elbow -- a red (positive) dot on the back of the bar
     should be placed away from the hand.
 
-5.  Have the volunteer hold the electrode in place with the opposite
+3.  Have the volunteer hold the electrode in place with the opposite
     hand.
 
 ### Exercise 3: Finding the median nerve
@@ -400,9 +398,6 @@ The **Stimulator Panel** should open
 
     *Figure 8. Stimulator Panel*
 
-```{=html}
-<!-- -->
-```
 11. Have the volunteer sit in a relaxed position. Make sure the
     volunteer is still holding the Stimulating Bar Electrode in place
     over the median nerve.
@@ -442,7 +437,9 @@ The **Stimulator Panel** should open
     prevent short-circuiting. Remember the two pads need to be aligned
     along the arm's length.
 
--   ![](media/image10.png){:width="415"     height="190"}
+![](media/image10.png){:width="415" height="190"}
+
+
 ***Note:** Some volunteers may fail to
     show any thumb twitch response stimulating the median nerve. In some
     people, the abductor pollicis brevis muscle is innervated by the
@@ -452,7 +449,7 @@ The **Stimulator Panel** should open
 
 *Figure 9. Position of the Median and Ulnar Nerves*
 
-8.  Stimulate the ulnar nerve at the level of the elbow. The nerve
+1.  Stimulate the ulnar nerve at the level of the elbow. The nerve
     passes behind a bony prominence called the medial epicondyle on the
     humerus. At this location, the nerve is exposed to minor mechanical
     injury and is known to children as the "funny bone." Stimulation at
@@ -504,23 +501,24 @@ The **Stimulator Panel** should open
     stimuli until a maximal response is reached, after which increasing
     the stimulus does not further increase the response amplitude.*
 
-6.  ![](media/image11.png){:width="361"     height="213"}
-Move the Stimulating Bar Electrode
+![](media/image11.png){:width="361" height="213"}
+
+*Figure 10. Evoked EMG Setup at the Elbow*
+
+6. Move the Stimulating Bar Electrode
     over the median nerve at the elbow. Refer to Figure 10 for proper
     placement. Mark the spot in between the pressure imprints on the
     skin. Everything else will remain the same.
 
-*Figure 10. Evoked EMG Setup at the Elbow*
-
-7.  Turn on the Isolated Stimulator and return the amplitude to 6 mA.
+1.  Turn on the Isolated Stimulator and return the amplitude to 6 mA.
     Repeat steps 3-4.
 
-8.  Once you have found a response, increase the amplitude to maximum
+2.  Once you have found a response, increase the amplitude to maximum
     amplitude used at the wrist. This should be 18 to 20 mA. Add a
     **comment** with the amplitude used when you start recording. Record
     three responses at this amplitude.
 
-9.  Turn off the Isolated Stimulator. Mark the spot in between the
+3.  Turn off the Isolated Stimulator. Mark the spot in between the
     pressure imprints on the skin and disconnect the equipment from the
     volunteer. **Save your data.**
 
@@ -552,18 +550,20 @@ Move the Stimulating Bar Electrode
     nerve conduction velocity of the volunteer. Enter the velocity under
     Table 3 of the Data Notebook on page 12.
 
-    ![](media/image12.emf)  ![](media/image13.png){:width="262" height="187"}
-![](media/image14.png){:width="277" height="187"}
+![](media/image12.emf)  ![](media/image13.png){:width="262" height="187"}
 
 
-*Figure 11. Evoked EMG from wrist (right) and elbow (left). Arrow
+![](media/image14.png){:width="262" height="187"}
+
+
+*Figure 11. Evoked EMG from wrist (top) and elbow (bottom). Arrow
 denotes a stimulus artifact*
 
-5.  Record the nerve conduction velocity from at least four other groups
+1.  Record the nerve conduction velocity from at least four other groups
     in Table 4 of the Data Notebook on page 12. You will need this data
     to complete the laboratory report.
 
-    **Data Notebook**
+**Data Notebook**
 
 #### Table 1. Force Produced by Adding Books
 
