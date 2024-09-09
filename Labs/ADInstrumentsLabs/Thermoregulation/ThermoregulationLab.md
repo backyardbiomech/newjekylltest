@@ -47,13 +47,13 @@ The above equations are not quite sufficient to analyze the data you’ll gather
 
 Additionally, many of the heat flow equations predict exponential decay of the difference in temperatures between the two objects (or between the object and environment). In other words, as the temperature gradient gets smaller, the heat flow rate gets smaller, so heat flow is not linear over time. This provides an easy way to measure some of these parameters – you can measure the **half-life of the curve** instead of trying to fit an equation to all of the data.  However, we might not want to wait for long enough for a complete half-life to occur (i.e. for the temperature *difference* to decrease by one half). Instead, you can use this equation to calculate a half-life from any two points on the curve:
 
-$$t_{1/2} = \frac{\Delta{t}\log{(\frac{1}{2})}}{\log{(\frac{T_2-T_A}{T_1-T_A})}}$$
+$$t_{1/2} = \frac{\ln(2) (\Delta{t})}{-\ln\left(\frac{T_{t_1} - T_A}{T_{t_2} - T_A}\right)}$$
 
 where $\Delta{t}$ is the time difference in seconds between the two measurements, $T_1$ is the first temperature measurement, $T_2$ the second temperature measurement, and $T_A$ is the ambient (environmental) temperature that the animal is cooling (or heating) toward. $Log$ can be either the natural or base 10 logarithm as long as you use the same form in both places.
 
 For example, let’s say that the mouse’s initial temperature is 43.7 °C, and its temperature *2 minutes later* is 40.2 °C.  Room temperature is known to be 23.2 °C.  Therefore we measure half-life as:
 
-$$t_{1/2} = \frac{120\log{(\frac{1}{2})}}{\log{(\frac{40.2-23.2}{43.7-23.2})}} = 444\ s$$
+$$t_{1/2} = \frac{120\ln{(2)}}{\log{(\frac{43.7-23.2}{40.2-23.2})}} = 444\ s$$
 
 In other words, with an original temperature gradient of $43.7 - 23.2 = 20.5 °C$, it would take 444 seconds (7.4 minutes) for that difference to halve to 10.25 °C, at which point the mouse temperature would be $23.2 + 10.25 = 33.45 °C$.
 

@@ -23,7 +23,7 @@ Nerve and muscle disorders cause the muscles to react in abnormal ways.
 Measuring the electrical activity in muscles and nerves can help detect
 the presence, location and extent of diseases that damage muscle tissue
 (such as muscular dystrophy) or nerves (such as amyotrophic lateral
-sclerosis: Lou Gehrig\'s disease). In the case of nerve injury, the
+sclerosis: ALS or Lou Gehrig's disease). In the case of nerve injury, the
 actual site of nerve damage can often be located.
 
 ![](media/image1.png){:width="443" height="205"}
