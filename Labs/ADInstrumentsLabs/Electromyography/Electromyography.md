@@ -12,39 +12,48 @@ math: katex
 + [Data Analysis](#analysis)
   
 ## Lab Objectives
-1. Explore the electrical activity of skeletal muscle for both voluntary and evoked muscle actions
-2. Learn how to record an electromyogram, or EMG
-3. Measure nerve conduction velocity.
+1. Explore the relationship between electrical activity in neurons and muscular reponses for both evoked and voluntary muscle contractions
+2. Test sensory resolution on different parts of the body
+3. Learn how to record an electromyogram, or EMG
+4. Measure nerve conduction velocity.
 
-
+## Readings
++ Chapter 16 in Butler et al., *Animal Physiology; an Environmental Perspective*
++ More, HL, JR Hutchinson, DF Collins, DJ Weber, SKH Aung, JM Donelan (2010) Scaling of sensorimotor control in terrestrial mammals. *Proceedings of the Royal Society, B*. **277:** 3563-3568.
+  
 ## Scientific Background
 
-Nerve and muscle disorders cause the muscles to react in abnormal ways.
+Nervous signals are carried as electrical action potentials along neurons. Within a neuron, an action potential is triggered when the membrane potential reaches threshold (usually about -40 mV), which opens voltage-gated sodium channels. The opening of those channels allows the passive diffusion of $Na^{+}$ ions **into** the cell, which further depolarizes it, pushing the next set of voltage-gated channels over threshold. Once an action potential is initiated, it propagates without further control or change in amplitude – it is known as an **all-or-none** event. 
+
+The velocity of that propagation depends on several factors:
+
+1. The temperature
+2. The extent of myelination
+3. The axonal **diameter**
+
+Generally, when comparing neurons in the homologous nerves across mammals, temperature and myelination are consistent. Therefore, conduction velocity should vary with axon diameter. However, within an individual organsim, when comparing different nuerons, both axon diameter **and** myelination may vary.
+
+**Nerves** are collections of neurons and supporting tissue, like blood vessels and other connective tissue. The neurons within a nerve can vary in terms of direction (sensory or motor), myelination, and diameter. 
+
+Measuring **nerve conduction velocity** using the techniques in More et al. and those we will use in lab **does not** measure the conduction velocity of a single neuron. Rather, an external electrical stimulus is applied to entire nerve, pushing potentially **all** of the neurons in the nerve over threshold. The action potentials developed in the sensory neurons will be carried back to the central nervous system and sensed as if parts of the skin are being touched. The action potentials developed in the motor neurons will be carried distally, to the their target muscles, and if sufficient will elicit a muscle twitch. Other neurons may also be triggered, for example those running to sweat glands. Since motor neurons have large diameters and are heavily myelinated, those will show the fastest conduction velocity, and will be the easiest to measure. Those neurons, however, become stimulated at different overall voltages, possibly because of their position in the nerve or slight differences in threshold potentials.
+
+However, we don't just measure nerve conduction velocity for the fun of it! Nerve and muscle disorders cause the muscles to react in abnormal ways.
 Measuring the electrical activity in muscles and nerves can help detect
 the presence, location and extent of diseases that damage muscle tissue
 (such as muscular dystrophy) or nerves (such as amyotrophic lateral
 sclerosis: ALS or Lou Gehrig's disease). In the case of nerve injury, the
-actual site of nerve damage can often be located.
+actual site of nerve damage can often be located with techniques similar to those we will use in lab.
 
-![](media/image1.png){:width="443" height="205"}
+To get a sense of how nervous activity correlates to muscle control, you will first complete a few simple experiments where you measure the electrical activity of muscles (*electromyograms* or *EMG*) during different types of muscle activity. You will use the PowerLab system to record that electrical activity, it will perform some basic mathematical operations (described below) so that you can quantify the magnitude of EMG activity.
 
-*Figure 1. Skeletal muscle structure*
-
-Skeletal muscles do the majority of the
-work for locomotion and support of the animal skeleton. The skeletal
-muscles produce movement, maintain posture, and assist with body
-temperature maintenance, among other actions. Skeletal (striated)
-muscles attach to the skeleton by tendons (strong bundles of collagen
-fibers), aponeuroses (flat, sheet like tendons) and fascia (bands of
-connective tissue). Each muscle is made up of individual muscle fibers
-organized in fascicles (Figure 1).
+To measure conduction velocity in your nerves, we will use the ADInstruments PowerLab system to both **stimulate** your nerves and record at your muscles. We will record both the timing and magnitude of stimulation. To get conduction velocity, we need a known distance and the time it takes for the signal to travel that distance. Rather than measure the arrival of the electrical signal directly (which would be small and temporally spread out since it would be travelling down different neurons), we can measure the electrical response (EMG) of a specific muscle as it responds to the evoked action potentials.
 
 A typical skeletal muscle contains thousands of muscle fibers. Each
 individual fiber is innervated by a branch of a motor axon. Under normal
 circumstances, a neuronal action potential activates all of the muscle
 fibers innervated by the motor neuron and its axonal branches. The motor
 neuron, together with all of the individual muscle fibers that it
-innervates, is termed a motor unit (Figure 2). This activation process
+innervates, is termed a motor unit (Figure 1). This activation process
 involves (1) the initiation of an action potential, either voluntarily
 or as a result of electrical stimulation of a peripheral nerve, (2)
 conduction of the action potential along the nerve fiber, (3) release of
@@ -53,11 +62,11 @@ of the muscle membrane with resultant contraction of the muscle fibers.
 
 ![](media/image2.png){:width="387" height="298"}
 
-*Figure 2. The components of a motor unit*
+*Figure 1. The components of a motor unit*
 
 During a contraction, there is synchronous
 activity in a number of fibers in the same muscle. The electrical signal
-recorded from a contracting muscle is called an electromyogram, or EMG.
+recorded from a contracting muscle is called an electromyogram, or **EMG**.
 The EMG provides a depiction of the timing and pattern of muscle
 activity during complex movements. The raw surface EMG signal reflects
 the electrical activity of the muscle fibers active at that time.
@@ -98,6 +107,7 @@ nerve conduction studies are usually conducted together.
 
 ## Required Equipment
 
+-   Paperclips
 -   LabChart software
 -   PowerLab Data Acquisition Unit
 -   5 Lead Shielded Bio Amp Cable
@@ -114,6 +124,19 @@ nerve conduction studies are usually conducted together.
 -   Four books or objects of similar weight (about 1 kg/2.2 lbs each)
 
 ## Procedure
+
+### Sensory Resolution 
+You can complete this part of the experiment at any time.
+In this exercise, you will learn that the density of tactile receptors in the skin differs greatly in different parts of the body.
+
+1. Take a metal paperclip and unfold it.  Bend it into a U shape, with the wire points about 10 mm apart.
+2. Have a volunteer sit in a chair, palms facing up, eyes closed.
+3. Touch the two points at the same time gently on the palm of a volunteer’s outstretched hand, and ask if one point or two is felt.  With a separation of 10 mm, the double stimulus from the two points should be easily felt.
+4. Bend the paperclip so as to bring the points closer together, say about 8 mm. Touch, and ask if one or two points. Continue to shrink the distance and repeat to find the smallest separation that the volunteer can distinguish as two points. While doing this, randomly press only one of the points down from time to time to test the volunteer.
+5. Measure the separation of the points with a ruler when the volunteer can no longer sense two points. This gives you an index of the sensory resoultion.
+5. Repeat the steps above with trials on different parts of the body, such as a fingertip, the back of the hand, and the back of the forearm.
+6. Record your observations in the Lab Notebook.
+
 
 ### Equipment Setup and Electrode Attachment
 
