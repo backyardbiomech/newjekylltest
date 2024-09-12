@@ -283,7 +283,7 @@ Muscular responses will be observed by watching the hand of the volunteer. Some 
 
 4.  Turn off the Isolated Stimulator. Mark the spot in between the pressure imprints on the skin and disconnect the equipment from the volunteer. **Save your data.**
 5.  Measure and record the distance *between the marks at the wrist and
-    elbow*. Note these in your notebook - you will eventually enter them in Table 2 of the [lab notebook](ActionPotentials_notebook.docx) under "Distance". This is the distance between
+    elbow*. Note these in your notebook - you will eventually enter them in Table 2 of the [lab notebook](ActionPotentials_notebook.md) under "Distance". This is the distance between
     stimulation sites.
 
 
@@ -300,7 +300,7 @@ Muscular responses will be observed by watching the hand of the volunteer. Some 
 4. Select a biceps burst and add to the datapad. Repeat at least three more times for a minimum of four biceps bursts.
 5. Similarly collect four biceps bursts.
 6. You may want to copy the data into a spreadsheet for additional calculations.
-7. Calculate the mean RMS Biceps **and** mean RMS Triceps activity across the four **Biceps Contracting** phases. Repeat for the four **Triceps Contracting** phases. Enter those data into table 1 in the [lab notebook](ActionPotentials_notebook.docx) and answer the questions there
+7. Calculate the mean RMS Biceps **and** mean RMS Triceps activity across the four **Biceps Contracting** phases. Repeat for the four **Triceps Contracting** phases. Enter those data into table 1 in the [lab notebook](ActionPotentials_notebook.md) and answer the questions there.
 
 #### Analysis of Exercise 4: Evoked EMG Activity
 
