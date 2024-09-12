@@ -9,6 +9,13 @@ math: katex
 
 + [Required Equipment](#required-equipment)
 + [Lab Procedure](#procedure)
+  + [Exercise 1](#exercise-1-sensory-resolution)
+  + [ADInstruments Equipment Setup for Voluntary EMG](#equipment-setup-and-electrode-attachment-for-adinstruments-experiments)
+    + [Exercise 2](#exercise-2-voluntary-change-in-contractile-force)
+    + [Exercise 3](#exercise-3-alternating-activity-and-coactivation)
+  + [ADInstruments Equipment Setup for Evoked EMG](#section-2-evoked-emg-activity)
+    + [Exercise 4](#exercise-4-finding-the-median-nerve)
+    + [Exercise 5](#exercise-5-evoked-emg-activity)
 + [Data Analysis](#analysis)
   
 ## Lab Objectives
@@ -125,7 +132,7 @@ nerve conduction studies are usually conducted together.
 
 ## Procedure
 
-### Sensory Resolution 
+### Exercise 1: Sensory Resolution 
 You can complete this part of the experiment at any time.
 In this exercise, you will learn that the density of tactile receptors in the skin differs greatly in different parts of the body.
 
@@ -133,18 +140,17 @@ In this exercise, you will learn that the density of tactile receptors in the sk
 2. Have a volunteer sit in a chair, palms facing up, eyes closed.
 3. Touch the two points at the same time gently on the palm of a volunteer’s outstretched hand, and ask if one point or two is felt.  With a separation of 10 mm, the double stimulus from the two points should be easily felt.
 4. Bend the paperclip so as to bring the points closer together, say about 8 mm. Touch, and ask if one or two points. Continue to shrink the distance and repeat to find the smallest separation that the volunteer can distinguish as two points. While doing this, randomly press only one of the points down from time to time to test the volunteer.
-5. Measure the separation of the points with a ruler when the volunteer can no longer sense two points. This gives you an index of the sensory resoultion.
+5. Measure the separation of the points with a ruler when the volunteer can no longer sense two points. This gives you an index of the sensory resolution.
 5. Repeat the steps above with trials on different parts of the body, such as a fingertip, the back of the hand, and the back of the forearm.
 6. Record your observations in the Lab Notebook.
 
-
-### Equipment Setup and Electrode Attachment
+### Equipment Setup and Electrode Attachment for ADInstruments experiments
 
 1.  Make sure the PowerLab is turned **off** and the USB cable is connected to the computer.
 
 2.  Connect the 5 Lead Shielded Bio Amp Cable to the Bio Amp Connector on the front panel of the PowerLab (Figure 3). The hardware needs to be connected **before** you open the settings file.
 
-3.  Remove any jewelry from the volunteer's hand and arm. Use the ballpoint pen to mark two small x's 2-3 cm apart on the skin covering the biceps muscle and triceps muscle. Use Figures 3 and 4 as a guide. Abrade the skin with abrasive gel or alcohol pad. This is important as abrasion helps reduce the skin's resistance. After abrasion, clean the area with an alcohol pad to remove the dead skin cells.
+3.  Remove any jewelry from the volunteer's hand and arm. Use the ballpoint pen to mark two small x's 2-3 cm apart on the skin covering the biceps muscle, and another pair of x's 2-3 cm apart on the skin covering the triceps muscle. Abrade the skin with abrasive gel or alcohol pad. This is important as abrasion helps reduce the skin's resistance. After abrasion, clean the area with an alcohol pad to remove the dead skin cells.
 
 ![](media/image3.png){:width="321" height="255"}
    
@@ -152,45 +158,47 @@ In this exercise, you will learn that the density of tactile receptors in the sk
 
 ***Note:** There is a video in the Multimedia folder in the Welcome Center illustrating this setup if you have further questions.*
 
-1.  While the skin is drying, attach the Shielded Lead Wires to the Bio Amp Cable. Attach the Disposable Electrodes to the end of the Channel 1, Channel 2, and earth wires. Follow the color scheme on the Bio Amp Cable.
+1.  While the skin is drying, attach the Shielded Lead Wires to the Bio Amp Cable. Attach the Disposable Electrodes to the end of the Channel 1 and Channel 2 wires, and attch the end of the earth wire to the Dry Earth Strap.
 
 2.  Attach the four electrodes and Dry Earth Strap (Earth lead) to the volunteer. Channel 1 will lead to the biceps (place the negative \[white\] wire 2-3 cm above the positive \[black\] wire), Channel 2  will lead to the triceps (place the negative \[red\] wire 2-3 cm above the positive \[brown\] wire), and the Earth (green) will be connected to the Dry Earth Strap. Refer to Figures 3 and 4 for proper placement.
 
-3.  Check that all four electrodes and the Dry Earth Strap (Earth lead) are properly connected to the volunteer and the Bio Amp Cable before proceeding. Turn on the PowerLab.
+3.  Check that all four electrodes and the Dry Earth Strap (Earth lead) are properly connected to the volunteer and the Bio Amp Cable before proceeding.
+4.  **Turn on the PowerLab.**
 
-### Exercise 1: Voluntary Change in Contractile Force
+### Exercise 2: Voluntary Change in Contractile Force
 
 In this exercise, you will examine changes in voluntary muscle contraction and how contractile force changes with increasing demand.
 
-1.  Launch LabChart and open the settings file "Voluntary Change Settings" from the **Experiments** tab in the **Welcome Center**. It will be located in the folder for this experiment.
+1.  Launch LabChart and open the settings file "Voluntary Change Settings" from the **Experiments** tab in the **Welcome Center**. It will be located in the folder for the **Electromyography** folder.
 
-    + ***Note:** Channels 1 and 2 are the RMS activity of the biceps and triceps muscles. RMS activity is commonly used in the assessment of muscle function because it is easier to quantify. Use these two channels when completing your analysis.*
+    + ***Note:** Channels 1 and 2 are the calculated RMS activity of the biceps and triceps muscles. RMS activity is commonly used in the assessment of muscle function because it is easier to quantify. Use these two channels when completing your analysis.*
 
 2.  Have the volunteer sit in a relaxed position with his/her elbow bent 90° and palm facing upward. Make sure the volunteer's elbow is not on the table. The volunteer's other hand should grasp the wrist of the recorded arm. Make sure the volunteer is facing away from the monitor.
 
-6.  Select **Bio Amp** from the Channel 3 Channel Function pop-up menu. Have the volunteer make a strong contraction of the biceps muscle. This is done by bending the recorded arm further while resisting this movement with the other arm. Observe the signal and adjust the range in the dialog so that the maximal electrical response occupies about one half to two-thirds of the full scale. Click OK.
+3.  Select **Bio Amp** from the Channel 3 Channel Function pop-up menu. Have the volunteer make a strong contraction of the biceps muscle. This is done by bending the recorded arm further while resisting this movement with the other arm. Observe the signal and adjust the range in the dialog so that the maximal electrical response occupies about one half to two-thirds of the full scale. Click OK.
 
-7.  Repeat step 3 for the triceps signal in Channel 4. A strong contraction of the triceps muscle is made by trying to straighten the recorded arm while resisting this movement with the other arm.
+4.  Repeat step 3 for the triceps signal in Channel 4. A strong contraction of the triceps muscle is made by trying to straighten the recorded arm while resisting this movement with the other arm.
 
-8.  **Start** recording. Add a **comment** with the volunteer's name. Have the volunteer make a strong contraction of the biceps and then the triceps. Add a **comment** at the start of each contraction. **Stop** recording.
+5.  **Start** recording. Add a **comment** with the volunteer's name. Have the volunteer make a strong contraction of the biceps for several seconds, and then the triceps, resisting with the other arm. Add a **comment** at the start of each contraction. **Stop** recording.
 
-9.  Have the volunteer return to his/her original relaxed position. **Start** recording. The blue line in Chart View will help you indicate the change in procedure.
+6.  Have the volunteer return to his/her original relaxed position. **Start** recording. The blue line in Chart View will help you indicate the change in procedure.
 
-10. Prepare a comment with "one book." After a few seconds, add the  **comment** and place one book on the hand of the subject. Leave it on for three seconds and remove it. Repeat this process with two books, then three, and then four books to give a series of increasing weights. Add a **comment** each time you add books. **Save your data**. Leave the disposable electrodes and lead wires in place if you are going on to do Exercise 2.
+7.  Prepare a **comment** with "one book." After a few seconds, add the comment and place one book on the hand of the subject. Leave it on for about three seconds and remove it. Repeat this process with two books, then three, and then four books to give a series of increasing weights. Add a **comment** each time you add books. 
+8. **Save your data**. Leave the disposable electrodes and lead wires in place if you are going on to do the next exercise.
 
-### Exercise 2: Alternating Activity and Coactivation
+### Exercise 3: Alternating Activity and Coactivation
 
 In this exercise, you will examine the activity of antagonist muscles and the phenomenon of coactivation.
 
-1.  Click the "Home" button on the lower left corner of the screen. Open the settings file "Coactivation Settings" from the **Experiments** tab in the **Welcome Center**. It will be located in the folder for this experiment. Make sure the data from Exercise 1 is saved.
+1.  Click the "Home" button on the lower left corner of the screen. Open the settings file "Coactivation Settings" from the **Experiments** tab in the **Welcome Center**. It will be located in the folder for the **Electromyography** folder.
 
-1.  Have the volunteer sit in a relaxed position with his/her elbow bent 90° and palm facing upward. Make sure the elbow is not on the table. The volunteer's other hand should grasp the wrist of the recorded arm. Make sure the volunteer is facing away from the monitor.
+2.  Have the volunteer sit in a relaxed position with his/her elbow bent 90° and palm facing upward. Make sure the elbow is not on the table. The volunteer's other hand should grasp the wrist of the recorded arm. Make sure the volunteer is facing away from the monitor.
 
-2.  Have the volunteer practice activating the biceps and triceps immediately after one another. The volunteer should practice this until it feels like both muscles are being equally activated in turn. Pause shortly after each activation; this makes the data clearer.
+3.  Have the volunteer practice activating the biceps and triceps immediately after one another. The volunteer should practice this until it feels like both muscles are being equally activated in turn. Pause shortly after each activation; this makes the data clearer.
 
-3.  **Start** recording. Add a **comment** with the volunteer's name, and record baseline EMG for 30 seconds.
+4.  **Start** recording. Add a **comment** with the volunteer's name, and record baseline EMG for 30 seconds.
 
-4.  Add a **comment** with "activation," and have the volunteer use the alternating pattern of activation for 30 seconds. **Save your data when you are finished recording**. **Read "Exercise 3 Equipment Setup" before disconnecting electrodes and lead wires** if you are continuing.
+5.  Add a **comment** with "activation," and have the volunteer use the alternating pattern of activation for 30 seconds. **Save your data when you are finished recording**. **Read "Exercise 3 Equipment Setup" before disconnecting electrodes and lead wires** if you are continuing.
 
 ## Section 2: Evoked EMG Activity
 
@@ -199,7 +207,7 @@ In these exercises, you will electrically stimulate the volunteer's median nerve
 ### Equipment Setup
 
 ![Description: Description: warng-16h](media/image6.png){:width="15" height="15"}
- **Exercises 3 and 4 involves application of electrical shocks to muscle through electrodes placed on the skin. Students who have cardiac pacemakers or who suffer from neurological or cardiac disorders should not volunteer for these exercises. If the volunteer feels major discomfort, discontinue the exercise and consult your instructor.**
+ **The following exercises involve application of electrical shocks to muscle through electrodes placed on the skin. Students who have cardiac pacemakers or who suffer from neurological or cardiac disorders should not volunteer for these exercises. If the volunteer feels major discomfort, discontinue the exercise and consult your instructor.**
 
 1.  Leave the Shielded Bio Amp Cable attached to the PowerLab. Remove the Channel 2 Lead Wires from the Cable and detach the Channel 1 Lead Wires from the Disposable Electrodes, leaving the wires connected to the Bio Amp Cable.
 
@@ -220,27 +228,23 @@ In these exercises, you will electrically stimulate the volunteer's median nerve
 
 3.  Have the volunteer hold the electrode in place with the opposite hand.
 
-### Exercise 3: Finding the median nerve
+### Exercise 4: Finding the median nerve
 
 Due to anatomical differences, the exact spot for the most efficient stimulation of the Median nerve will vary between volunteers. In the first part of this exercise, you will find the "sweet spot" for the volunteer before recording the EMG activity.
 
 Muscular responses will be observed by watching the hand of the volunteer. Some motor effects that may be observed include:
 
-- Movement of the thumb towards the fingers (due to stimulation of adductor pollicis and flexor muscles of the thumb)
-
-- Bending of the wrist (due to the flexor carpi radialis and flexor carpi ulnaris muscles)
-
+- Movement of the thumb towards the fingers (due to stimulation of *adductor pollicis* and flexor muscles of the thumb)
+- Bending of the wrist (due to the *flexor carpi radialis* and *flexor carpi ulnaris* muscles)
 -  Bending of the last segments of the fingers (due to the long finger flexor muscles)
-
 - Movement of all fingers, combined with the pulling of the thumb towards the index finger (due to the intrinsic muscles of the hand innervated by the ulnar nerve)
+- Lifting of the thumb (due to stimulation of *abductor pollicis* at the base of the thumb innervated by the median nerve)
 
-- Lifting of the thumb (due to stimulation of abductor pollicis at the base of the thumb innervated by the median nerve)
-
-1. Launch LabChart and open the settings file "Nerve Effect Settings" from the **Experiments** tab in the **Welcome Center**. It will be located in the folder for this experiment.
+1. Launch LabChart and open the settings file "Nerve Effect Settings" from the **Experiments** tab in the **Welcome Center**. It will be located in the folder for the **Electromyography** folder.
 
 ***Note:** No data will be recorded in this file. Its purpose is to control the Isolated Stimulator.*
 
-![](media/image9.png){:width="369"     height="121"}
+![](media/image9.png){:width="369" height="121"}
 
 *Figure 8. Stimulator Panel*
 
@@ -252,7 +256,7 @@ Muscular responses will be observed by watching the hand of the volunteer. Some 
 
 3. Select the **On** button in the Stimulator Panel. Observe the volunteer's hand. Look for the twitch contractions affecting the thumb and fingers. Have the volunteer describe the effects he/she is experiencing.
 
-4.  Make small adjustments by moving the bar around the wrist and examine the effect. Locate the position giving the largest twitches. You can turn the isolated stimulator off at any time by selectingthe **off** button in the Stimulator Panel. When the volunteer feels a slight tingle in the thumb, they are in the right area for the next part of the exercise.
+4.  Make small adjustments by moving the bar around the wrist and examine the effect. Locate the position giving the largest twitches. You can turn the isolated stimulator off at any time by selecting the **off** button in the Stimulator Panel. When the volunteer feels a slight tingle in the thumb, they are in the right area for the next part of the exercise.
 
     - ***Note:** If nothing happens, you may need to increase the stimulus amplitude (current) to observe a twitch. Increase the amplitude in the Stimulator Panel Start at 6 mA and increase to 12 mA in 1 mA increments if necessary.*
 
@@ -263,16 +267,16 @@ Muscular responses will be observed by watching the hand of the volunteer. Some 
 ![](media/image10.png){:width="415" height="190"}
 
 *Figure 9. Position of the Median and Ulnar Nerves*
-   + **Note:** Some volunteers may fail to show any thumb twitch response stimulating the median nerve. In some people, the abductor pollicis brevis muscle is innervated by the ulnar nerve instead of the median nerve. This is an example of anatomical variation. Try moving the Stimulating Bar Electrode to the ulnar nerve (see figure 9).*
+   + ***Note:** Some volunteers may fail to show any thumb twitch response stimulating the median nerve. In some people, the abductor pollicis brevis muscle is innervated by the ulnar nerve instead of the median nerve. This is an example of anatomical variation. Try moving the Stimulating Bar Electrode to the ulnar nerve (see figure 9).*
 
 
-1.  Stimulate the ulnar nerve at the level of the elbow. The nerve passes behind a bony prominence called the medial epicondyle on the humerus. At this location, the nerve is exposed to minor mechanical injury and is known to children as the "funny bone." Stimulation at this site gives large and obvious motor effects.
+   1. For example, stimulate the ulnar nerve at the level of the elbow. The nerve passes behind a bony prominence called the medial epicondyle on the humerus. At this location, the nerve is exposed to minor mechanical injury and is known to children as the "funny bone." Stimulation at this site gives large and obvious motor effects.
 
     + **Note:** Stimulation in most places should give minimal discomfort. In some locations on some volunteers, there is substantial sensory effect. There may be painful sensation in the forearm or hand away from the site of stimulation toward the fingers. At these locations, a cutaneous sensory nerve is being stimulated.*
 
-2.  When you have observed a good thumb twitch reaction, select the **Off** button in the Stimulator Panel to stop the stimulator. You do not need to save your data as nothing was recorded.
+1.  When you have observed a good thumb twitch reaction, remember the location, then select the **Off** button in the Stimulator Panel to stop the stimulator. You do not need to save your data as nothing was recorded.
 
-### Exercise 4: Evoked EMG Activity
+### Exercise 5: Evoked EMG Activity
 
 1. Open the Welcome center by clicking the Home button on the lower left corner of the screen. Open the settings file "Evoked EMG Settings" from the **Experiments** tab in the **Welcome Center**. It will be located in the folder for this experiment.
 
@@ -282,7 +286,10 @@ Muscular responses will be observed by watching the hand of the volunteer. Some 
 
 4.  Increase the Current to 8.0 mA. Click **Start** to apply the stimulus. If a response is not recorded, have the volunteer move the electrode to a different spot on the nerve (Figure 9) and apply pressure. If the volunteer does not feel the stimulus, increase the stimulus amplitude by 2 mA each time (up to 20 mA). The lights next to the switch on the PowerLab will light up when a stimulus is made.
 
-5. Once you record an evoked EMG response, increase the amplitude by 2 mA and click **Start** again. Continue increasing the amplitude by 2 mA until you reach 20 mA or the volunteer requests you to stop. Add a **comment** with the amplitude each time you begin recording.
+5. Once the nerve is properly stimulated, not only will you see the muscle twitch, you will also see an evoked EMG response on the recording. Once you have a twitch **and** record an evoked EMG response, don't move the electrode.
+6. Increase the amplitude by 2 mA and click **Start** again. Continue increasing the amplitude by 2 mA until you reach 20 mA or the volunteer requests you to stop. Add a **comment** with the amplitude each time you begin recording.
+
+7. Mark the spot in between the pressure imprints on the skin.
 
    - ***Note:** The evoked response should increase with increasing stimuli until a maximal response is reached, after which increasing the stimulus does not further increase the response amplitude.*
 
@@ -292,9 +299,9 @@ Muscular responses will be observed by watching the hand of the volunteer. Some 
 
 1. Move the Stimulating Bar Electrode over the median nerve at the elbow. Refer to Figure 10 for proper placement. Mark the spot in between the pressure imprints on the skin. Everything else will remain the same.
 
-2. Turn on the Isolated Stimulator and return the amplitude to 6 mA. Repeat steps 3-4.
+2. Turn on the Isolated Stimulator and **return the amplitude to 6 mA**. Repeat the steps above: move the electrode and stimulate until you location with a good response. You may need to increase the amplitude to ensure a good response.
 
-3.  Once you have found a response, increase the amplitude to maximum amplitude used at the wrist. This should be 18 to 20 mA. Add a **comment** with the amplitude used when you start recording. Record three responses at this amplitude.
+3.  Once you have found a response, increase the amplitude to maximum amplitude used at the wrist. This should be 18 to 20 mA. Add a **comment** with the amplitude and "elbow" used when you start recording. Record three responses at this amplitude.
 
 4.  Turn off the Isolated Stimulator. Mark the spot in between the pressure imprints on the skin and disconnect the equipment from the volunteer. **Save your data.**
 
