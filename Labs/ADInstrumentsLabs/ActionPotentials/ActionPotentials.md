@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /electromyography/
-title: Physiology Lab – Electromyography
+permalink: /actionpotentials/
+title: Physiology Lab – Action Potentials and Nerve Conduction Velocity
 math: katex
 ---
 
@@ -11,8 +11,7 @@ math: katex
 + [Lab Procedure](#procedure)
   + [Exercise 1](#exercise-1-sensory-resolution)
   + [ADInstruments Equipment Setup for Voluntary EMG](#equipment-setup-and-electrode-attachment-for-adinstruments-experiments)
-    + [Exercise 2](#exercise-2-voluntary-change-in-contractile-force)
-    + [Exercise 3](#exercise-3-alternating-activity-and-coactivation)
+    + [Exercise 2](#exercise-2-alternating-activity-and-coactivation)
   + [ADInstruments Equipment Setup for Evoked EMG](#section-2-evoked-emg-activity)
     + [Exercise 4](#exercise-4-finding-the-median-nerve)
     + [Exercise 5](#exercise-5-evoked-emg-activity)
@@ -51,7 +50,7 @@ the presence, location and extent of diseases that damage muscle tissue
 sclerosis: ALS or Lou Gehrig's disease). In the case of nerve injury, the
 actual site of nerve damage can often be located with techniques similar to those we will use in lab.
 
-To get a sense of how nervous activity correlates to muscle control, you will first complete a few simple experiments where you measure the electrical activity of muscles (*electromyograms* or *EMG*) during different types of muscle activity. You will use the PowerLab system to record that electrical activity, it will perform some basic mathematical operations (described below) so that you can quantify the magnitude of EMG activity.
+To get a sense of how nervous activity correlates to muscle control, you will first complete a simple experiments where you measure the electrical activity of muscles (*electromyograms* or *EMG*) during different types of muscle activity. You will use the PowerLab system to record that electrical activity, it will perform some basic mathematical operations (described below) so that you can quantify the magnitude of EMG activity. This is so that you can see how muscles operate electrically under natural circumstances.
 
 To measure conduction velocity in your nerves, we will use the ADInstruments PowerLab system to both **stimulate** your nerves and record at your muscles. We will record both the timing and magnitude of stimulation. To get conduction velocity, we need a known distance and the time it takes for the signal to travel that distance. Rather than measure the arrival of the electrical signal directly (which would be small and temporally spread out since it would be travelling down different neurons), we can measure the electrical response (EMG) of a specific muscle as it responds to the evoked action potentials.
 
@@ -165,28 +164,7 @@ In this exercise, you will learn that the density of tactile receptors in the sk
 3.  Check that all four electrodes and the Dry Earth Strap (Earth lead) are properly connected to the volunteer and the Bio Amp Cable before proceeding.
 4.  **Turn on the PowerLab.**
 
-### Exercise 2: Voluntary Change in Contractile Force
-
-In this exercise, you will examine changes in voluntary muscle contraction and how contractile force changes with increasing demand.
-
-1.  Launch LabChart and open the settings file "Voluntary Change Settings" from the **Experiments** tab in the **Welcome Center**. It will be located in the folder for the **Electromyography** folder.
-
-    + ***Note:** Channels 1 and 2 are the calculated RMS activity of the biceps and triceps muscles. RMS activity is commonly used in the assessment of muscle function because it is easier to quantify. Use these two channels when completing your analysis.*
-
-2.  Have the volunteer sit in a relaxed position with his/her elbow bent 90° and palm facing upward. Make sure the volunteer's elbow is not on the table. The volunteer's other hand should grasp the wrist of the recorded arm. Make sure the volunteer is facing away from the monitor.
-
-3.  Select **Bio Amp** from the Channel 3 Channel Function pop-up menu. Have the volunteer make a strong contraction of the biceps muscle. This is done by bending the recorded arm further while resisting this movement with the other arm. Observe the signal and adjust the range in the dialog so that the maximal electrical response occupies about one half to two-thirds of the full scale. Click OK.
-
-4.  Repeat step 3 for the triceps signal in Channel 4. A strong contraction of the triceps muscle is made by trying to straighten the recorded arm while resisting this movement with the other arm.
-
-5.  **Start** recording. Add a **comment** with the volunteer's name. Have the volunteer make a strong contraction of the biceps for several seconds, and then the triceps, resisting with the other arm. Add a **comment** at the start of each contraction. **Stop** recording.
-
-6.  Have the volunteer return to his/her original relaxed position. **Start** recording. The blue line in Chart View will help you indicate the change in procedure.
-
-7.  Prepare a **comment** with "one book." After a few seconds, add the comment and place one book on the hand of the subject. Leave it on for about three seconds and remove it. Repeat this process with two books, then three, and then four books to give a series of increasing weights. Add a **comment** each time you add books. 
-8. **Save your data**. Leave the disposable electrodes and lead wires in place if you are going on to do the next exercise.
-
-### Exercise 3: Alternating Activity and Coactivation
+### Exercise 2: Alternating Activity and Coactivation
 
 In this exercise, you will examine the activity of antagonist muscles and the phenomenon of coactivation.
 
@@ -304,86 +282,61 @@ Muscular responses will be observed by watching the hand of the volunteer. Some 
 3.  Once you have found a response, increase the amplitude to maximum amplitude used at the wrist. This should be 18 to 20 mA. Add a **comment** with the amplitude and "elbow" used when you start recording. Record three responses at this amplitude.
 
 4.  Turn off the Isolated Stimulator. Mark the spot in between the pressure imprints on the skin and disconnect the equipment from the volunteer. **Save your data.**
+5.  Measure and record the distance *between the marks at the wrist and
+    elbow*. Note these in your notebook - you will eventually enter them in Table 2 of the [lab notebook](ActionPotentials_notebook.docx) under "Distance". This is the distance between
+    stimulation sites.
 
 
 
 ## Data analysis & calculations
 
 ### Data Extraction
-#### Analysis for Exercise 1: Voluntary Change in Contractile Force
 
-1.  Examine the data in the Chart View. **Autoscale,** if necessary.
-    Note the changes in activity in the "Biceps" channel. Note also that
-    placing weights on the hand gives rise to little or no activity in
-    the triceps muscle.
+#### Analysis for Exercise 2: Alternating Activity and Coactivation
 
-2.  Select a small part of the "Biceps"
-    activity and examine it in **Zoom View**. The raw EMG signal is
-    composed of many up-and-down spikes (Figure 5).
+1.  Load your data file from Exercise 2
+2.  View the Datapad, and click the Smart Tile Button to see both the graph and the Datapad. 
+3.  Examine the data in the Chart View for both the biceps and triceps, and **Autoscale**, if necessary. Note the large-scale alternation of activity.
+4. Select a biceps burst and add to the datapad. Repeat at least three more times for a minimum of four biceps bursts.
+5. Similarly collect four biceps bursts.
+6. You may want to copy the data into a spreadsheet for additional calculations.
+7. Calculate the mean RMS Biceps **and** mean RMS Triceps activity across the four **Biceps Contracting** phases. Repeat for the four **Triceps Contracting** phases. Enter those data into table 1 in the [lab notebook](ActionPotentials_notebook.docx) and answer the questions there
 
-![](media/image5.png){:width="492"     height="293"}
+#### Analysis of Exercise 4: Evoked EMG Activity
 
-*Figure 5 Raw EMG Signal*
+1. Open your data file from Exercise 4: Evoked EMG activity.
+2. Examine the data in the **Scope View** for the evoked response of the wrist and elbow at maximum stimulation amplitude.
 
-3.  Note the relationship between the "Biceps" channel and the "RMS
-    Biceps" channel. The height of the RMS trace reflects the overall
-    activity of the raw EMG signal and gives a simpler view of the
-    muscle's electrical activity. Note the changes in the RMS trace as
-    books were added and removed.
-
-4.  Select data points from "RMS Biceps" when books were added. Enter
-    these values in Table 1 of the Data Notebook on page 12 of this
-    document. The height of the trace correlates with the force produced
-    by the muscle.
-
-    #### Analysis for Exercise 2: Alternating Activity and Coactivation
-
-1.  Examine the data in the Chart View for both the biceps and triceps,
-    and **Autoscale**, if necessary. Note the large-scale alternation of
-    activity.
-
-2.  Note when the biceps muscle is activated forcefully; there is a
-    minor increase in the activity of the triceps. Correspondingly,
-    there is a minor increase of activity in the biceps trace when the
-    triceps are activated. This phenomenon is coactivation. Its
-    physiological meaning is not well understood, but it is thought to
-    stabilize the elbow joint.
-
-3.  Select data points from the RMS EMG peaks for both muscles during
-    contraction of the biceps and contraction of the triceps. Enter
-    these values in Table 2 of the Data Notebook on page 12 of this
-    document.
-
-    #### Analysis of Exercise 4: Evoked EMG Activity
-
-1.  Examine the data in the Scope View for the evoked response of the wrist and elbow at maximum amplitude.
-
-2.  Use **Zoom View** to measure the latency of a single waveform for
+3.  Use **Zoom View** to measure the *latency* of a single waveform for
     each type of response (wrist and elbow). Latency is the time elapsed
-    from the start of the stimulus (the start of each record) to the
-    start of the evoked response. Record these values in Table 3 of the
-    Data Notebook under "Latency" on page 12 of this document. In
+    from the start of the stimulus (the start of each recording, which is when the electrical stimulating pulse was triggered) to the
+    start of the evoked response. You should have 3-4 recordings from each site at maximal amplitude. Calculate the mean latency for each site. Record these values in Table 2 of the lab notebook under "Latency". In
     addition, calculate the difference between the two latencies and
-    enter the value in Table 3.
+    enter the value in Table 2.
 
 -   ***Note:** You may see a very early deflection in response. This is
     a stimulus artifact and must be ignored when calculating the latency
     (Figure 11).*
 
-3.  Measure and record the distance between the marks at the wrist and
-    elbow and record it in Table 3 of the Data Notebook under "Distance"
-    on page 12 of this document. This is the distance between
-    stimulation sites.
-
-4.  Using the conduction velocity equation given below, calculate the
-    nerve conduction velocity of the volunteer. Enter the velocity under
-    Table 3 of the Data Notebook on page 12.
 
 ![](media/image12.emf)  ![](media/image13.png){:width="262" height="187"}
 
 
 ![](media/image14.png){:width="262" height="187"}
-
-
 *Figure 11. Evoked EMG from wrist (top) and elbow (bottom). Arrow
 denotes a stimulus artifact*
+
+4.  Measure and record the distance between the marks at the wrist and
+    elbow and record it in Table 3 of the Data Notebook under "Distance"
+    on page 12 of this document. This is the distance between
+    stimulation sites.
+
+5.  Using the conduction velocity equation given below, calculate the
+    nerve conduction velocity of the volunteer. Enter the velocity under
+    Table 2 of the notebook.
+
+$$V_{conduction} = \frac{distance\ between\ stimulation\ sites\ (mm)}{l_{elbow} - l_{wrist}}$$
+
+where $l$ is the latency of response at each site.
+
+6. Collect Nerve Conduction Velocities from other people in your group, or from other groups in the class for Table 3
