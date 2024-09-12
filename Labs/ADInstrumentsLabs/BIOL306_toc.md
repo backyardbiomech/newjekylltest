@@ -14,3 +14,4 @@ permalink: /labtoc/
     + [Analysis Google Sheet](https://docs.google.com/spreadsheets/d/1KjUse3pRNi_Rz74nDRreTVSwrUjs66wZl6SWoyt1j34/edit?usp=sharing)
 3. [Action Potentials Lab](./ActionPotentials/ActionPotentials.md)
     + [notebook](./ActionPotentials/ActionPotentials_notebook.md)
+    + [doc](./ActionPotentials/ActionPotentials_notebook.docx)
