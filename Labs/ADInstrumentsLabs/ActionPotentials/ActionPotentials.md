@@ -13,8 +13,8 @@ math: katex
   + [ADInstruments Equipment Setup for Voluntary EMG](#equipment-setup-and-electrode-attachment-for-adinstruments-experiments)
     + [Exercise 2](#exercise-2-alternating-activity-and-coactivation)
   + [ADInstruments Equipment Setup for Evoked EMG](#section-2-evoked-emg-activity)
-    + [Exercise 4](#exercise-4-finding-the-median-nerve)
-    + [Exercise 5](#exercise-5-evoked-emg-activity)
+    + [Exercise 3](#exercise-3-finding-the-median-nerve)
+    + [Exercise 4](#exercise-4-evoked-emg-activity)
 + [Data Analysis](#analysis)
   
 ## Lab Objectives
@@ -206,7 +206,7 @@ In these exercises, you will electrically stimulate the volunteer's median nerve
 
 3.  Have the volunteer hold the electrode in place with the opposite hand.
 
-### Exercise 4: Finding the median nerve
+### Exercise 3: Finding the median nerve
 
 Due to anatomical differences, the exact spot for the most efficient stimulation of the Median nerve will vary between volunteers. In the first part of this exercise, you will find the "sweet spot" for the volunteer before recording the EMG activity.
 
@@ -254,7 +254,7 @@ Muscular responses will be observed by watching the hand of the volunteer. Some 
 
 1.  When you have observed a good thumb twitch reaction, remember the location, then select the **Off** button in the Stimulator Panel to stop the stimulator. You do not need to save your data as nothing was recorded.
 
-### Exercise 5: Evoked EMG Activity
+### Exercise 4: Evoked EMG Activity
 
 1. Open the Welcome center by clicking the Home button on the lower left corner of the screen. Open the settings file "Evoked EMG Settings" from the **Experiments** tab in the **Welcome Center**. It will be located in the folder for this experiment.
 
