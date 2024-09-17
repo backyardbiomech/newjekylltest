@@ -29,7 +29,7 @@ Heat loss by conduction:
 
 $$\dot{Q} = kS\frac{T_2-T_1}{l}$$
 
-where $S$ is the surface area of the animal, an easy thing to measure on the cylindrical model, and $k$ is the thermal conductivity of the insulator – air in this case ($0.024\ Wm^{-1}K^{-1}$ for 25°C air). The temperatures $T_2$ and $T_1$ are two temperatures at some distance $l$ from each other. We could assume that $T_1$ is the temperature of the mouse and that $T_2$ is the temperature of the air at some location, but which location should we use?  $T_1$, $T_2$ and $l$ are meant to reflect a temperature difference across some insulator – maybe a layer of fur – but what should we do when air itself is the insulator?  If we assume that the thickness of insulation is very small – perhaps the distance from the mouse to the first molecule of air, then the calculated heat flux would be very large (due to dividing by a very small $l$).  Of course, in this case the air molecule would quickly heat up, destroying the temperature gradient (the two temps would be equal), making our calculation meaningless.  If instead we assume that $T_2$ is some distance far away from the mouse – perhaps across the room – then the intervening air will not change in temperature, but our calculated heat flux would be ridiculously small.  The most appropriate option is to assume that $T_2$ is “ambient air temperature” and that $l$ is the thickness of the **boundary layer** (see below in Terms & Equations) of air around the mouse.  Boundary layers are often difficult to measure exactly, but for a mouse sitting in (relatively) still air, we will assume that the boundary layer is approximately $0.4\ cm$ thick, allowing us to calculate a reasonable heat flow from the mouse due to conduction into the air.
+where $S$ is the surface area of the animal, an easy thing to measure on the cylindrical model, and $k$ is the thermal conductivity of the insulator – air in this case ($0.024\ Wm^{-1}K^{-1}$ for 25°C air). The temperatures $T_2$ and $T_1$ are two temperatures at some distance $l$ from each other. We could assume that $T_1$ is the temperature of the mouse and that $T_2$ is the temperature of the air at some location, but which location should we use?  $T_1$, $T_2$ and $l$ are meant to reflect a temperature difference across some insulator – maybe a layer of fur – but what should we do when air itself is the insulator?  If we assume that the thickness of insulation is very small – perhaps the distance from the mouse to the first molecule of air, then the calculated heat flux would be very large (due to dividing by a very small $l$).  Of course, in this case the air molecule would quickly heat up, destroying the temperature gradient (the two temps would be equal), making our calculation meaningless.  If instead we assume that $T_2$ is some distance far away from the mouse – perhaps across the room – then the intervening air will not change in temperature, but our calculated heat flux would be ridiculously small.  The most appropriate option is to assume that $T_2$ is “ambient air temperature” and that $l$ is the thickness of the **boundary layer** (see below in Terms & Equations) of air around the mouse.  Boundary layers are often difficult to measure exactly, but for a mouse sitting in absolutely still air (other than natural convection), we could assume that the boundary layer is approximately $0.4\ cm$ thick. That then could become the "distance" between the warm mouse and the ambient air temperature in the heat flow equation above.
 
 Should we next worry about the outside of the mouse cooling down faster than the inside of the mouse, leading to temperature gradients within the mouse?  These gradients do affect calculations of heat flux in animals, but we do not need to worry in this case.  The thermal conductivity ($k$) of our aluminum mouse ($205\ Wm^{-1}K^{-1}$) is very high compared to that of muscle and fat ($<1\ Wm^{-1}K^{-1}$), let alone air or fur, so heat will flow much more rapidly within the mouse than outside the mouse. In other words, all parts of the mouse model will stay at a uniform temperature, unlike an actual animal in which the core is generally warmer than the surface.
 
@@ -43,7 +43,19 @@ Calculation of the amount of heat transferred by evaporation is simple, since al
 
 Our model aluminum mice cannot sweat or otherwise intentionally evaporatively cool themselves, but we can mimic natural evaporative cooling by gently wetting the mouse with cool or  warm water.
 
-The above equations are not quite sufficient to analyze the data you’ll gather during lab.  Firstly, all of them are in terms of heat flow, not the animal’s actual change in temperature in response to that heat flow.  Thus, while the equations do tell us how much heat an animal would need to produce or lose to maintain a constant temperature, they won’t be of immediate help in our experiments where we record the **temperature changes** of our “mouse” in different conditions.  To go further, we need to know the **heat capacity** of the mouse, or how much heat (energy, in *Joules* or *calories*) needs to be added or removed to change its temperature by 1°C.  The heat capacity of an object is a function of its **volume** and the **materials** it is made of.  To account for the volume, we can find the heat capacity *per cubic cm*; one cubic cm of water has a mass of 1 g. Our aluminum “mice” have a volumetric heat capacity of about  $ 2.4\ Jcm^{-1}°C^{-1}$. That means it takes 2.4 joules (about 1/2 a calorie) to heat up a 1 cm x 1 cm x 1 cm of aluminum from 25 °C to 26 °C. For comparison, whole-body animal heat capacity (it varies by tissue) is about $2.9\ Jcm^{-1}°C^{-1}$. By this, it would take a flux of roughly 10-14 calories (depending on size) to change a typical small mouse's body temperature by 1 °C. We can convert our **heat** flow rates, ($\dot{Q}$), into rates of **temperature** change ($\dot{T}$) by dividing heat flow by heat capacity.
+The above equations are not quite sufficient to analyze the data you’ll gather during lab.  Firstly, all of them are in terms of heat flow, not the animal’s actual change in temperature in response to that heat flow.  Thus, while the equations do tell us how much heat an animal would need to produce or lose to maintain a constant temperature, they won’t be of immediate help in our experiments where we record the **temperature changes** of our “mouse” in different conditions.  To go further, we need to know the **heat capacity** of the mouse, or how much heat (energy, in *Joules* or *calories*) needs to be added or removed to change its temperature by 1°C.  The heat capacity of an object is a function of its **volume** and the **materials** it is made of.  To account for the volume, we can find the heat capacity *per cubic cm*; one cubic cm of water has a mass of 1 g. Our aluminum “mice” have a *volumetric* heat capacity of about  $ 2.4\ Jcm^{-3}°C^{-1}$. That means it takes 2.4 joules (about 1/2 a calorie) to heat up a 1 cm x 1 cm x 1 cm of aluminum from 25 °C to 26 °C. For comparison, whole-body animal heat capacity (it varies by tissue) is about $2.9\ Jcm^{-3}°C^{-1}$. By this, it would take a flux of roughly 10-14 calories (depending on size) to change a typical small mouse's body temperature by 1 °C. What matters in your equations isn't actually the volumetric heat capacity, though; that's really only useful for comparing between materials. You need to know the actual heat capacity **for your specific mouse**. To get that, we need to know how much energy it takes to change the temperature of your whole mouse by 1 °C. Do do that, you take your volumetric heat capacity above, and multiply it by the **volume of your mouse**.
+
+For example, your mouse may be a cylinder 5 cm tall with a radius of 1.6 cm. The volume of a cylinder is:
+
+$$
+V = h \cdot \pi r^2 = 5 \cdot \pi \cdot 1.6^2 = 40.2 \text{ cm}^3
+$$
+
+and the mouse heat capacity for that individual, $C_{mouse}$ is
+
+$$
+C_{mouse} = C_p \cdot V \newline= 2.4\ Jcm^{-3}°C^{-1} \cdot 40.2 \text{ cm}^3 \newline= 96.48 \text{ J°C}^{-1}
+$$
 
 Additionally, many of the heat flow equations predict exponential decay of the difference in temperatures between the two objects (or between the object and environment). In other words, as the temperature gradient gets smaller, the heat flow rate gets smaller, so heat flow is not linear over time. This provides an easy way to measure some of these parameters – you can measure the **half-life of the curve** instead of trying to fit an equation to all of the data.  However, we might not want to wait for long enough for a complete half-life to occur (i.e. for the temperature *difference* to decrease by one half). Instead, you can use this equation to calculate a half-life from any two points on the curve:
 
@@ -182,14 +194,24 @@ Your lab notebook ([Download the Word document](./Thermoregulation_notebook.docx
 
 Your calculations in the Google sheet calculated the temperature half life based on the **data**, but note that to do those calculations you didn't have to use conductivity, heat capacity, surface area, or anything else. 
 
-There are other formula that you could use, if you knew the specific measurements, to **predict** half life. For example, to predict the half-life of cooling due to conductive heat loss:
+There are other formula that you could use, if you knew the specific measurements, to **predict** half life. For example, to predict the half-life of cooling of a specific mouse due to conductive heat loss:
 
-$$t_{1/2} = \frac{\ln{(2)}c_pl}{kS}$$
+$$t_{1/2} = \frac{\ln{(2)}c_{mouse}l}{kS}$$
 
-where $S$ is the animal’s surface area, $c_p$ is the animal’s heat capacity (see above), $\ln{(2)}$ is the natural logarithm of 2, $k$ is the conductivity of the insulator and $l$ is the thickness of the boundary layer.
+where $S$ is the animal’s surface area, $c_{mouse}$ is the animal’s heat capacity (see above), $\ln{(2)}$ is the natural logarithm of 2, $k$ is the conductivity of the insulator and $l$ is the thickness of the boundary layer.
+
+To save you some scrolling to the background material above, remember that:
+
+$$
+C_{mouse} = C_p \cdot V 
+$$
+
+where V is the volume of the mouse (which you need to measure and calculate for each one) and $C_p$ is the volumetric heat capacity of aluminum, which is $2.4\ Jcm^{-3}°C^{-1}$.
+
+Also $k$ is the thermal conductivity of the *insulator* – air in this case ($0.024\ Wm^{-1}C^{-1}$ for 25°C air). But notice that we have mixed units (cm in some, m there in k), so converting k to *per* cm makes it $0.00024\ Wcm^{-1}C^{-1}$.
 
 In cases where radiant heat loss is also important, half-life can be approximated by:
 
-$$t_{1/2} = \frac{\ln{(2)}c_pl}{kS}-\ln{(2)}C$$
+$$t_{1/2} = \frac{\ln{(2)}c_{mouse}l}{kS}-\ln{(2)}C$$
 
 where $C$ is a lumped term representing emissivity, surface area and Stefan-Boltzmann’s constant.
