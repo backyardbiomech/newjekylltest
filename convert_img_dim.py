@@ -1,5 +1,5 @@
 """
-Add path to a docx at the bottom, then run.
+Add path to a docx at the bottom, then run (NOTE that doc files need to be opened in word and converted to docx first!!!)
 Will convert to markdown with python, forcing tables to be either 
 pipe table or html. images saved to ./media, and image size tags
 converted to kramdown compatable inline attributes, 
@@ -130,5 +130,7 @@ def main(docx_path_str):
 
 if __name__ == "__main__":
     # Path to the input .docx file
-    docx_path = "/Users/jacksonbe3/Library/CloudStorage/Box-Box/A&P lab materials/ADInstrumentsLabs/Electromyography Mac/Student Protocol/Electromyography Student Protocol Mac.docx"
+    docx_path = "/Users/jacksonbe3/Library/CloudStorage/Box-Box/A&P lab materials/ADInstrumentsLabs/Reflexes & Reaction Times Mac/Student Protocol/Reflexes and Reaction Times Student Protocol MAC.docx"
     main(docx_path)
+    
+    
