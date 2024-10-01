@@ -4,48 +4,68 @@ title: "Reflexes notebook"
 math: katex
 permalink: /reflexes_nb/
 ---
-## Thermoregulation Notebook
-You may work the Excel sheet as part of your group, but your analysis and answers to the questions below should be your own work and in your own words.
+## Reflexes Notebook
+You may work LabChart and data analysis as part of your group, but your analysis and answers to the questions below should be your own work and in your own words.
 
-1. In your Excel file, I have entered the formulae to calculate the half-life for each 30 second segment of all of the treatments (it's one formula, then copy and paste). Use Excel formulae to calculate the mean half-life per treatment. Put those values below for the treatments you were able to complete:
+#  Data Notebook
 
-| Treatment            | Mean half life|
-|----------------------|---------------|
-|Natural Convection    |        |
-|Forced Convection     |        |
-|Radiant Heat Gain (black) |           |
-|Radiant Heat Loss (black) |           |
-|Radiant Heat Gain (silver)|           |
-|Radiant Heat Loss (silver)|           |
-|Evaporative Heat Loss     |           |
-|Fleecy Mouse              |           |
+#### Table 1. Myotatic Reflex
 
-&nbsp;  
-&nbsp;  
-&nbsp;  
-&nbsp;  
-1. The background material for this lab stated that we could assume that the boundary layer around the mouse was 0.4 cm thick. Of course, as described in the lab, the boundary layer is thinned by natural convection. Modify the first equation in `Data analysis and calculations` part of the lab to **solve for the boundary layer**, $l$. Use your measured half-life from `natural convection`, and other necessary measurements, to estimate the actual thickness of the boundary layer around your mouse. Put that value here. How does it compare to the assumed value? Why might it be different?
-&nbsp;  
-&nbsp;  
-&nbsp;  
-&nbsp;  
-2. How much thinner does the boundary layer get under conditions of forced convection? Calculate it as above but for the `forced convection` treatment.  Explain in your own words what happened to the mouse when you fan it; use the “wind chill” type terminology popular with TV weatherpersons throughout the nation.  Would forced convection have such a strong effect on the mouse’s temperature if the mouse were surrounded by an airtight insulating layer? 
-&nbsp;  
-&nbsp;  
-&nbsp;  
-&nbsp;  
-3. Now you have an estimate of the boundary layer under natural convection. Solve the second equation in `Data analysis and calculations` for $C$. Note that you know everything other than $C$, which represents emissivity, surface area and Stefan-Boltzmann’s constant. Surface area between your black mouse and silver mouse should be pretty similar, so $C$ is proportional to *emissivity*. Calculate *C* for both colors of mice, for both warming (light on) and cooling (light off). Include those values below. Do your results support the assumption that the shiny mouse phenotype has a lower emissivity than the black mouse?
-&nbsp;  
-&nbsp;  
-&nbsp;  
-&nbsp;  
-4. Use an estimate of the thickness of the blanket wrapped around the mouse and your results to estimate the conductivity of the blanket. Compare this result to the values of heat conductivities of other materials (for example see http://www.engineeringtoolbox.com/thermal-conductivity-d_429.html).  What might account for any discrepancies?
-&nbsp;  
-&nbsp;  
-&nbsp;  
-&nbsp;  
-5. Compare the half life of the evaporation treatment to at least one other treatment. Why did you choose that treatment? What is controlled for, and what isn't. How does the half life compare, and what does that mean? 
-&nbsp;  
-&nbsp;  
-&nbsp;  
-&nbsp;  
+|                |     | **Latency** (s) | **Angle** (°) |
+|----------------|-----|-----------------|---------------|
+| **Normal**     | **1** |                 |               |
+|                | **2** |                 |               |
+|                | **3** |                 |               |
+|                | **4** |                 |               |
+|                | **5** |                 |               |
+|                | **Mean** |              |               |
+| **Jendrassik** | **1** |                 |               |
+|                | **2** |                 |               |
+|                | **3** |                 |               |
+|                | **4** |                 |               |
+|                | **5** |                 |               |
+|                | **Mean** |              |               |
+
+### Exercise 2 Observations
+
+a.  What is the response of the pupil when light is shone on it?
+
+b.  What was the response of the pupil on the opposite eye?
+
+c.  What happens to pupil diameter when the eye is focused for near vision?
+
+### Exercise 3 Observations
+
+a.  Were you able to elicit the flexion reflex pushing the pisiform bone in either hand? What is pushing on the bone doing to trigger the muscle contraction?
+
+b.  Were you able to find any other bony prominences in the hand at which the reflex could be elicited? Were you able to contract the palmaris brevis muscle voluntarily?
+
+#### Table 2. Reaction Times
+
+|                | **Condition**       |                |                |                    |                |
+|----------------|---------------------|----------------|----------------|--------------------|----------------|
+|                | **Visual Cue**      | **With Warning** | **Predictable** | **With Distraction** | **Auditory Cue** |
+| **1**          |                     |                |                |                    |                |
+| **2**          |                     |                |                |                    |                |
+| **3**          |                     |                |                |                    |                |
+| **4**          |                     |                |                |                    |                |
+| **5**          |                     |                |                |                    |                |
+| **6**          |                     |                |                |                    |                |
+| **7**          |                     |                |                |                    |                |
+| **8**          |                     |                |                |                    |                |
+| **9**          |                     |                |                |                    |                |
+| **10**         |                     |                |                |                    |                |
+| **Mean**       |                     |                |                |                    |                |
+| **Standard deviation** |             |                |                |                    |                |
+
+#  Follow up Questions
+
+1.  What effect does the Jendrassik maneuver have on the myotatic reflex?
+
+2.  Based on your data, are the means and standard deviations for reaction time the same under all conditions? Why do you think this is?
+
+1.  Do you think the difference in reaction time between auditory and visual cues is due to different processing times in the brain? Ask the volunteer(s) who completed these exercises for their thoughts.
+
+1.  Ask the volunteer who completed Exercise 6 whether or not it was easier to complete the task when the cues were predictable. Do your results from this exercise support their statement?
+
+1.  Could the difference in reaction time between the exercises only be due to inherent variability in the experimental method?
