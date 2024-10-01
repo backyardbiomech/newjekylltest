@@ -7,6 +7,8 @@ permalink: /reflexes_nb/
 ## Reflexes Notebook
 You may work LabChart and data analysis as part of your group, but your analysis and answers to the questions below should be your own work and in your own words.
 
+Download the [MS Word version of this](./Reflexes_notebook.docx).
+
 #  Data Notebook
 
 #### Table 1. Myotatic Reflex

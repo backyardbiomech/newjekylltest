@@ -4,11 +4,28 @@ permalink: /reflexes/
 title: Physiology Lab – Reflexes
 math: katex
 ---
+
+# Quicklinks
+
+You can view and download the [lab notebook here](./Reflexes_notebook.md). 
+
+- [Background](#background)
+- [Required Equipment](#required-equipment)
+- [Procedure](#procedure)
+  - [Section 1: Reflexes](#section-1-reflexes)
+    - [Exercise 1: The Myotatic Reflex](#exercise-1-the-myotatic-reflex)
+    - [Exercise 2: The Pupillary Reflex](#exercise-2-the-pupillary-reflex)
+    - [Exercise 3: Reflex Contraction of the Palmaris Brevis Muscle](#exercise-3-reflex-contraction-of-the-palmaris-brevis-muscle)
+  - [Section 2: Reaction Times](#section-2-reaction-times)
+    - [Exercise 4: Reaction Time to a Visual Cue](#exercise-4-reaction-time-to-a-visual-cue)
+    - [Exercise 5: Reaction Time with a Warning](#exercise-5-reaction-time-with-a-warning)
+    - [Exercise 6: Reaction Time to Predictable Cues](#exercise-6-reaction-time-to-predictable-cues)
+    - [Exercise 7: Reaction Time with a Distracting Task](#exercise-7-reaction-time-with-a-distracting-task)
+    - [Exercise 8: Reaction Time to an Auditory Cue](#exercise-8-reaction-time-to-an-auditory-cue)
+
 # Reflexes & Reaction Times
 
 In this experiment, you will investigate your reflexes and reaction times in response to a variety of stimuli and under a variety of conditions. You will examine some simple and complex reflexes from a volunteer and look at reaction times from a volunteer given harmless visual and auditory cues.
-
-*Written by staff of ADInstruments.*
 
 # Background
 
@@ -124,7 +141,7 @@ tendon of the volunteer. Repeat this four more times, so that you have five bloc
 
 1.  Examine the data in the Chart View. **Autoscale**, if necessary. You will analyze and compare the latency and change in leg angle under normal conditions and while performing the Jendrassik maneuver.
 
-2.  Scroll to the first block of data performed under normal conditions. Use the **Waveform Cursor** to measure the time between the stimulus and the start of the muscle contraction (the latency). Move the cursor to the point where the Goniometer trace starts to deflect. Record the latency in Table 1 of the Data Notebook under the heading "Latency"
+2.  Scroll to the first block of data performed under normal conditions. Use the **Waveform Cursor** to measure the time between the stimulus and the start of the muscle contraction (the latency). Move the cursor to the point where the Goniometer trace starts to deflect. Record the latency in Table 1 of the [Lab Notebook](./Reflexes_notebook.md) under the heading "Latency"
 
 3.  Measure the amplitude of the knee jerk response for the same data by
 placing the **Marker** on the baseline data in the Angle channel and the **Waveform Cursor** on the peak of the waveform. You must return the Marker to its dock before proceeding to the next block. Record the angle in Table 1 of the Data Notebook under the heading "Angle" on page 13.

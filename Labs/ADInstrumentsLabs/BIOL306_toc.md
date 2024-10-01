@@ -15,3 +15,6 @@ permalink: /labtoc/
 3. [Action Potentials Lab](./ActionPotentials/ActionPotentials.md)
     + [notebook](./ActionPotentials/ActionPotentials_notebook.md)
     + [doc](./ActionPotentials/ActionPotentials_notebook.docx)
+4. [Reflexes and ReactionTimes Lab](./Reflexes/ReflexesLab.md)
+    + [notebook](./Reflexes/Reflexes_notebook.md)
+    + [doc](./Reflexes/Reflexes_notebook.docx)
