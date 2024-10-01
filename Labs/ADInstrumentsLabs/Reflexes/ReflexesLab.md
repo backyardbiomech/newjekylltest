@@ -135,18 +135,15 @@ tendon of the volunteer. Repeat this four more times, so that you have five bloc
 
 10. **Save your data** when you are finished recording.
 
-# Analysis
-
-### Exercise 1: The Myotatic Reflex
+#### Analysis
 
 1.  Examine the data in the Chart View. **Autoscale**, if necessary. You will analyze and compare the latency and change in leg angle under normal conditions and while performing the Jendrassik maneuver.
 
 2.  Scroll to the first block of data performed under normal conditions. Use the **Waveform Cursor** to measure the time between the stimulus and the start of the muscle contraction (the latency). Move the cursor to the point where the Goniometer trace starts to deflect. Record the latency in Table 1 of the [Lab Notebook](./Reflexes_notebook.md) under the heading "Latency"
 
-3.  Measure the amplitude of the knee jerk response for the same data by
-placing the **Marker** on the baseline data in the Angle channel and the **Waveform Cursor** on the peak of the waveform. You must return the Marker to its dock before proceeding to the next block. Record the angle in Table 1 of the Data Notebook under the heading "Angle" on page 13.
+3.  Measure the amplitude of the knee jerk response for the same data by placing the **Marker** on the baseline data in the Angle channel and the **Waveform Cursor** on the peak of the waveform. You must return the Marker to its dock before proceeding to the next block. Record the angle in Table 1 of the Data Notebook under the heading "Angle" on page 13.
 
-1.  Repeat this procedure for all of the data blocks completed in the exercise.
+4.  Repeat this procedure for all of the data blocks completed in the exercise.
 
 ### Exercise 2: The Pupillary Reflex
 
@@ -211,9 +208,7 @@ In this exercise, you will measure the volunteer's reaction time to a visual cue
 
 9.  Right click in Channel 1 and select **Add Comment** from the pop up menu. Enter the comment "exercise 4" and **Add** the comment. Save your data, but do not close the file.
 
-# Analysis
-
-### Exercise 4: Reaction Time to a Visual Cue
+#### Analysis
 
 1. Use **Scope View** to examine the data. Note that in Scope View each block of data is one page (Figure 7). **Autoscale**, if necessary.
 
@@ -244,9 +239,7 @@ receives a signal from the Finger Pulse Transducer.
 
 3.  Right click in Channel 1 and select **Add Comment** from the pop up menu. Enter the comment "exercise 5" and **Add** the comment. Save your data, but do not close the file.
 
-# Analysis
-
-### Exercise 5: Reaction Time with a Warning
+#### Analysis
 
 1.  Use **Scope View** to examine the data for exercise 5. **Autoscale**, if necessary. Note that there is some variability in the volunteer's reaction time.
 
@@ -279,9 +272,7 @@ In this exercise, you will measure the volunteer's reaction time to a cue given 
 
 3.  Right click in Channel 1 and select **Add Comment** from the pop up menu. Enter the comment "exercise 6" and **Add** the comment. Save your data, but do not close the file.
 
-# Analysis
-
-### Exercise 6: Reaction Time to Predictable Cues
+#### Analysis
 
 1.  Use **Scope View** to examine the data for exercise 6. **Autoscale**, if necessary. Note the variability in the volunteer's reaction time.
 
@@ -303,9 +294,7 @@ receives a signal from the Finger Pulse Transducer.
 
 4.  Right click in Channel 1 and select **Add Comment** from the pop up menu. Enter the comment "exercise 7" and **Add** the comment. Save your data, but do not close the file.
 
-### Analysis
-
-### Exercise 7: Reaction Time with a Distracting Task
+#### Analysis
 
 1.  Use **Scope View** to examine the data for exercise 7.
 **Autoscale**, if necessary. Note the variability in the volunteer's reaction time.
@@ -327,9 +316,7 @@ In this exercise, you will measure the volunteer's reaction time to a sound.
 
 4.  Right click in Channel 1 and select **Add Comment** from the pop up menu. Enter the comment "exercise 8" and **Add** the comment. Save your data.
 
-# Analysis 
-
-### Exercise 8: Reaction Time to an Auditory Cue
+#### Analysis 
 
 1.  Use **Scope View** to examine the data for exercise 8. **Autoscale**, if necessary. Note the variability in the volunteer's reaction time.
 
