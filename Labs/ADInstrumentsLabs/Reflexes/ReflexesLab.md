@@ -254,13 +254,13 @@ receives a signal from the Finger Pulse Transducer.
 
 3. Open the Data Pad. Double click on the top of the Channel 3 Column. This will open the Data Pad Column C Setup dialog (Figure 8). In the left-hand pane, choose **Statistics**. From the right-hand pane, select **Time at Maximum**. In the 'Calculate using this channel:' field, select 'Response' (the name of Channel 1).
 
-![](media/image8.png){:width="336"     height="363"}
+![](imgs/image8.png){:width="336"     height="363"}
 
 *Figure 8. Data Pad Column Setup Dialog -- click on the gray column header to open this dialog.*
 
 1.  In Chart View **Highlight** the 10 blocks of data for this exercise. Select **Multiple Add to Data Pad** from the **Commands** menu. Select **Find using: Event marker**, and **Step through: Current selection** as shown in Figure 9 below.
 
-![](media/image9.png){:width="349"     height="275"}
+![](imgs/image9.png){:width="349"     height="275"}
 
 *Figure 9. Multiple Add to Data Pad dialog -- select **Event marker**.*
 
