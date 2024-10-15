@@ -73,6 +73,7 @@ def process_image_tags(md_path):
             new_tag = re.sub(r'height=".*?in"', f'height="{height_in_pixels}"', new_tag, flags=re.DOTALL)
 
         # Format the tag for kramdown and add a newline after the closing brace
+        # need to fix the "in" part because it's replacing in inside of words!
         new_tag = new_tag.replace("{", "{:").replace("in", "").replace("\n", " ") + "\n\n"
 
         # Replace the original tag in the data
@@ -224,7 +225,7 @@ def main(docx_path_str):
 
 if __name__ == "__main__":
     # Path to the input .docx file
-    docx_path = "/Users/jacksonbe3/Library/CloudStorage/Box-Box/A&P lab materials/ADInstrumentsLabs/Reflexes & Reaction Times Mac/Student Protocol/Reflexes and Reaction Times Student Protocol MAC.docx"
+    docx_path = "/Users/jacksonbe3/Library/CloudStorage/Box-Box/A&P lab materials/ADInstrumentsLabs/Respiratory Airflow & Volume Mac/Student Protocol/Respiratory Airflow & Volume Student Protocol Mac.docx"
     main(docx_path)
     
     

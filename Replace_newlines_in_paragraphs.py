@@ -91,5 +91,5 @@ def remove_newlines_from_paragraphs_and_lists(file_path):
         file.write(cleaned_markdown)
 
 # Path to the Markdown file
-file_path = 'Labs/ADInstrumentsLabs/Reflexes/ReflexesLab.md'
+file_path = 'Labs/ADInstrumentsLabs/Respirometry/RespirometryLab.md'
 remove_newlines_from_paragraphs_and_lists(file_path)
