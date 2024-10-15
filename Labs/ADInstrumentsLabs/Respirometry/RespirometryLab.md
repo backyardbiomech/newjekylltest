@@ -5,6 +5,17 @@ title: Physiology Lab – Respiratory Airflow & Volume
 math: katex
 ---
 
+- [Background](#background)
+- [Required Equipment](#required-equipment)
+- [Procedure](#procedure)
+  - [Equipment Setup](#equipment-setup)
+  - [Exercise 1: Familiarize Yourself with the Equipment](#exercise-1-familiarize-yourself-with-the-equipment)
+  - [Exercise 2: Lung Volumes and Capacities](#exercise-2-lung-volumes-and-capacities)
+  - [Exercise 3: Pulmonary Function Tests](#exercise-3-pulmonary-function-tests)
+  - [Exercise 4: Simulating Airway Obstructions](#exercise-4-simulating-airway-obstructions)
+- [Analysis](#analysis)
+- [Appendix: Vital Capacities in Healthy Individuals](#appendix-vital-capacities-in-healthy-individuals)
+
 # Respiratory Airflow & Volume
 In this experiment, you will be introduced to the Spirometry Extension for LabChart as a technique for recording respiratory variables and analyzing a data trace to derive respiratory parameters. You will examine lung volumes and capacities, basic tests of pulmonary function, and simulate an airway obstruction. *Written by staff of ADInstruments.*
 
@@ -171,7 +182,7 @@ In this exercise, you will demonstrate the effects of bronchial obstructions, su
 
 # Analysis
 ## Exercise 2: Lung Volumes and Capacities
-1.  Examine the normal tidal breathing data in the Chart View, and **Autoscale**, if necessary. Calculate how many breaths there are in a one-minute period (BPM). Record RR/min in Table 1 of the Lab Notebook of this document.
+1.  Examine the normal tidal breathing data in the Chart View, and **Autoscale**, if necessary. Calculate how many breaths there are in a one-minute period (BPM). Record RR/min in Table 1 of the [Lab Notebook](./Respirometry_notebook.md) of this document.
 2. Determine the volume of a single tidal inspiration by placing the **Marker** at the start of a normal tidal inspiration. Place the **Waveform Cursor** at the peak (Figure 10). The value shown in the Range/Amplitude display for Channel 2 is the tidal volume ($V_T$) for that breath. Record this value in Table 1 of the Data Notebook on page 14. 
  
 ![](media/image13.png){:width="351"     height="276"}
@@ -218,12 +229,12 @@ $$TLC = VC + RV \text{ (L)}$$
 $$FRC = ERV + RV\text{ (L)}$$
 
 7.  **Select** an area of the Chart View that contains normal breathing,
-making sure to select across complete respiratory cycles. Select **Report** from the **Spirometry** menu. The Spirometry Report window contains various parameters calculated by the Spirometry Extension from the data selection (Figure 13). Copy the results for $V_E$, $V_T$, and *f* (which is *RR*) into the appropriate column in Table 1 of the Lab Notebook.
+making sure to select across complete respiratory cycles. Select **Report** from the **Spirometry** menu. The Spirometry Report window contains various parameters calculated by the Spirometry Extension from the data selection (Figure 13). Copy the results for $V_E$, $V_T$, and *f* (which is *RR*) into the appropriate column in Table 1 of the [Lab Notebook](./Respirometry_notebook.md).
 
 ![](media/image15.png){:width="249"     height="389"}
 *Figure 13. Spirometry Report*
 
-Make sure you have entered all the values calculated into Table 1 of the Lab Notebook.
+Make sure you have entered all the values calculated into Table 1 of the [Lab Notebook](./Respirometry_notebook.md).
 
 ## Exercise 3: Pulmonary Function Tests
 1.  Perform the analysis on your own Pulmonary Function test data.
@@ -241,21 +252,20 @@ Make sure you have entered all the values calculated into Table 1 of the Lab Not
 ![](media/image18.png){:width="375"     height="204"}
 *Figure 15. Spirometry Settings Dialog with Default Values*
 
-8.  With the Spirometry Data window open, select **Report** from the **Spirometry** menu. The report lists the values calculated for the parameters in Figure 14. Add these values to the proper column in Table 2 of the Lab Notebook.
+8.  With the Spirometry Data window open, select **Report** from the **Spirometry** menu. The report lists the values calculated for the parameters in Figure 14. Add these values to the proper column in Table 2 of the [Lab Notebook](./Respirometry_notebook.md).
 2.  Repeat this analysis until all three forced breaths have been analyzed, both manually and with the Spirometry Extension.
 1.  Calculate the percentage ratio of $FEV_1$ to FVC for your experimental and Spirometry Extension results. Use the maximum values of $FEV_1$ and *FVC*, and use the following equation: 
 
 $$(FEV_1 / FVC) \times 100 \text{ (\%)}$$
 
-1.  Record your values in Table 2 of the Lab Notebook.
-2.  When each person in the group has completed their analysis, share your results. Record the values for the other group members in Table 3 of the Lab Notebook.
+1.  Record your values in Table 2 of the [Lab Notebook](./Respirometry_notebook.md).
+2.  When each person in the group has completed their analysis, share your results. Record the values for the other group members in Table 3 of the [Lab Notebook](./Respirometry_notebook.md).
    
 ## Exercise 4: Simulating Airway Restrictions
 1.  Perform the analysis on your own airway restriction test data.
 2.  Repeat the entire Analysis for Exercise 3 using your data from Exercise 4.
-3.  Record these values in Table 4 of the Lab Notebook.
-4.  Record the values for the other group members in Table 5 of the Lab
-Notebook.
+3.  Record these values in Table 4 of the [Lab Notebook](./Respirometry_notebook.md).
+4.  Record the values for the other group members in Table 5 of the [Lab Notebook](./Respirometry_notebook.md).
 1. Compare the Flow volume loops for the forced breaths using the Flow Volume plot view from the Spirometry menu Figure 16. 
 
 ![](media/image19.png){:width="633"     height="203"}
