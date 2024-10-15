@@ -18,3 +18,6 @@ permalink: /labtoc/
 4. [Reflexes and ReactionTimes Lab](./Reflexes/ReflexesLab.md)
     + [notebook](./Reflexes/Reflexes_notebook.md)
     + [doc](./Reflexes/Reflexes_notebook.docx)
+5. [Respirometry and Lung Volumes](./Respirometry/RespirometryLab.md)
+    + [notebook](./Respirometry/Respirometry_notebook.md)
+    + [doc](./Respirometry/Respirometry_notebook.docx)
