@@ -275,7 +275,11 @@ $$(FEV_1 / FVC) \times 100 \text{ (\%)}$$
 
 ## Appendix: Vital Capacities in Healthy Individuals
 Height (cm)
+
 ![](media/image20.jpeg){:width="624" height="253"}
+
 *Table 1. Predicted Vital Capacities for Males* Height (cm)
+
 ![](media/image21.jpeg){:width="624" height="254"}
+
 *Table 2. Predicted Vital Capacities for Females*
