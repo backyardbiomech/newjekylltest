@@ -85,16 +85,18 @@ PowerLab (Figure 4). Turn on the PowerLab.
 
 ## Exercise 1: Familiarize Yourself with the Equipment
 In this exercise, you will learn the principles of spirometry and how integration of the flow signal gives a volume.
+
 ### Zeroing the Spirometer Pod
 The Spirometer Pod must be zeroed **before starting each exercise**. The Flow Head must be left undisturbed on the table during the zeroing process.
 1.  Launch LabChart and open the settings file "Airflow and Volume
 Settings" from the **Experiments** tab in the **Welcome Center**. It will be located in the folder for this experiment. 
-1.  Select **Spirometer Pod** from the Channel 1 Channel Function pop-up menu. Make sure the Range is 500 mV and the Low Pass is 10 Hz; then select **Zero**.
-1.  When the value remains at 0.0 mV, have the volunteer pick up the flow head and breathe out gently through the Flow Head, and observe the signal (Figure 5). If the signal shows a downward deflection (it is negative), you can return to the Chart View. If the signal deflects upward, you need to invert it. Tick the Invert check box. 
+1.  Select **Spirometer Pod** from the Channel 1 Channel Function pop-up menu (to the right of the top trace, red square). In the window that opens, make sure the Range is 500 mV and the Low Pass is 10 Hz; then select **Zero**.
+2.  When the value remains at 0.0 mV, have the volunteer pick up the flow head and breathe out gently through the Flow Head, and observe the signal (Figure 5). If the signal shows a downward deflection (it is negative), you can return to the Chart View. If the signal deflects upward, you need to invert it. Tick the Invert check box. 
 
 ![](media/image8.png){:width="335"     height="250"} 
 ***Note**: The equipment can also be zeroed by clicking on the Setup menu and selecting "zero all inputs".* 
 *Figure 5. Spirometer Pod Dialog with Downward Deflection*
+
 2.  Leave this dialog open and have the volunteer get the noise clip in place and sit comfortably so they can not view the screen. The next exercise will allow them to get used to breathing through this apparatus.
 ### Using the Equipment
 1.  With the flow head on the bench, **Zero** the Spirometer,
@@ -106,12 +108,13 @@ Flow Head carefully with both hands. The two plastic tubes should be pointing up
 
 Put the nose clip on the volunteer's nose. This ensures that all air breathed passes through the Mouthpiece, Filter, and Flow Head (Figure 6). 
 1.  After the volunteer becomes accustomed to the apparatus and begins breathing normally, you are ready to begin. 
+2.  Click OK to close the spiromter pod settings window to return to the main recording window.
 
 ##### If performing Volume Correction
 
-1.  With the flow head on the bench, **Zero** the Spirometer,
+1.  With the flow head on the bench, **Zero** the Spirometer. *The equipment can be zeroed by clicking on the Setup menu and selecting "zero all inputs".* 
 2.  Have the volunteer replace the noise clip and put the mouthpiece in their mouth and hold the Flow Head as before.
-1.  **Start** recording. Have the volunteer take a few normal breaths, then perform a full exhalation (this should be sigh, not a gasp or a forced vital capacity procedure) and then breathe normally for about one minute. At the end of one minute, have the volunteer perform another full exhalation. Observe the data being recorded in the "Flow" channel; it should resemble Figure 7. 
+3.  **Start** recording. Have the volunteer take a few normal breaths, then perform a full exhalation (this should be sigh, not a gasp or a forced vital capacity procedure) and then breathe normally for about one minute. At the end of one minute, have the volunteer perform another full exhalation. Observe the data being recorded in the "Flow" channel; it should resemble Figure 7. 
 
 ![](media/image10.png){:width="575"     height="165"} *Figure 7. Proper volume correction Procedure. Note, the two full exhalations must be done as consistently as possible as the lowest points on the flow channel are used to correct the Volume calculation. Note this procedure is optional, check with your instructor.* 
 
@@ -119,7 +122,7 @@ Put the nose clip on the volunteer's nose. This ensures that all air breathed pa
 
 ##### If NOT Performing volume correction:
 
-1.  With the flow head on the bench, **Zero** the Spirometer,
+1.  With the flow head on the bench, **Zero** the Spirometer. *The equipment can be zeroed by clicking on the Setup menu and selecting "zero all inputs".* 
 2.  Have the volunteer replace the noise clip and put the mouthpiece in
 their mouth and hold the Flow Head as before.
 1.  **Start** recording. Have the volunteer breathe normally for about
@@ -153,7 +156,7 @@ axis for the "Flow" channel. Make the top value 15 L/s and the bottom value -15 
 
 ## Exercise 2: Lung Volumes and Capacities
 In this exercise, you will examine the respiratory cycle and measure changes in flow and volume.
-1.  **Zero** the Spirometer Pod again, using the same procedure as before. Remember to leave the Flow Head undisturbed on the bench during the process.
+1.  With the flow head on the bench, **Zero** the Spirometer. *The equipment can be zeroed by clicking on the Setup menu and selecting "zero all inputs".* 
 1.  Have the volunteer face away from the monitor and read. This will prevent the volunteer from consciously controlling their breathing during the exercise.
 1.  When ready, **Start** recording. After two seconds, have the volunteer replace the Nose Clip and breathe normally into the Flow Head. Record normal tidal breathing for one minute. Add a **comment** with "normal tidal breathing" to the data trace.
 1.  After the tidal breathing period (at the end of a normal tidal expiration), ask the volunteer to inhale as deeply as possible and then exhale as deeply as possible. Afterwards, allow the volunteer to return to normal tidal breathing for at least three breaths. **Stop** recording when finished.
@@ -162,7 +165,7 @@ In this exercise, you will examine the respiratory cycle and measure changes in 
 
 ## Exercise 3: Pulmonary Function Tests
 In this exercise, you will measure parameters of forced expiration that are used in evaluating pulmonary function. Note that the Spirometry Extension is not intended for clinical evaluation of lung function.
-1.  **Zero** the Spirometer Pod again, using the same procedure as before. Remember to leave the Flow Head undisturbed during the process. ***Note**: remember to zero the spirometer at the level it will be used (i.e. if the volunteer is standing, zero the device after the volunteer stands but before you connect the mouthpiece to the volunteer*
+1.  With the flow head on the bench, **Zero** the Spirometer. *The equipment can be zeroed by clicking on the Setup menu and selecting "zero all inputs".* 
 1.  Have the volunteer replace the Nose Clip and breathe normally into the Flow Head.
 1.  **Start** recording. Add a **comment** with the volunteer's name.
 2.  Prepare a comment with "forced breathing." Have the volunteer breathe normally for 30 seconds. Then ask the volunteer to inhale maximally and then exhale as forcefully, as quickly, and as fully as possible until no more air can be expired, then have the volunteer breathe normally for two to three breaths. Add the **comment**. **Stop** recording.
