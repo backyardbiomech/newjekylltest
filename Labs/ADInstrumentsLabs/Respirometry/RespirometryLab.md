@@ -131,7 +131,7 @@ one minute.
 
 ### Setting Up the Spirometry Extension
 The Spirometry Extension processes the raw voltage signal from the Spirometer Pod, applies a volume correction factor to improve accuracy, and displays calibrated Flow (L/s) and Volume (L) traces. It takes over from Units Conversion. The trace you recorded in this exercises will provide reference points for the Spirometry Extension that allow it to calculate and perform corrections on the trace.
-1.  Drag across the Time axis at the bottom of the Chart View to **select** the data you recorded. Select **Spirometry Flow** from the Channel 1 Channel Function pop-up menu. Make sure the settings are the same as those in Figure 8, then click OK.
+1.  Drag across the Time axis at the bottom of the Chart View to **select** the data you recorded. Select **Spirometry Flow** from the Channel 1 Channel Function pop-up menu. Make sure the settings are the same as those in Figure 8, then click OK. **Note: for "Flow data:" the choice might only be "Channel 1", that "Ch1: Flow". Select either one.**
 
 ![](media/image11.png){:width="260" height="190"}
 *Figure 8. Spirometry Flow Dialog*
