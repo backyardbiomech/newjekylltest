@@ -21,3 +21,6 @@ permalink: /labtoc/
 5. [Respirometry and Lung Volumes](./Respirometry/RespirometryLab.md)
     + [notebook](./Respirometry/Respirometry_notebook.md)
     + [doc](./Respirometry/Respirometry_notebook.docx)
+6. [Dive Response](./DiveResponse/DiveResponseLab.md)
+    + [notebook](./DiveResponse/DiveResponse_notebook.md)
+    + [doc](./DiveResponse/DiveResponse_notebook.docx)
