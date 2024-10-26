@@ -30,6 +30,7 @@ Download the [MS Word version of this](./DiveResponse_notebook.docx).
 | **30 Seconds after Breath-hold** |                |                     |
 
 #### Table 3. Changes in Peripheral Circulation
+
 |                 | **Change in Leg Blood Volume** |
 |-----------------|--------------------------------|
 | **Rest**        |                                |
