@@ -1,14 +1,11 @@
 ---
 layout: page
-title: "Lab Table of contents"
+title: "306 Lab Table of contents"
 math: mathjax
-permalink: /labtoc/
+permalink: /306labtoc/
 ---
-### BIOL 473 Labs
-1. [Lab 1 – Intro to video analysis](./473Labs/Lab1Intro.md)
 
-<details>
-<summary>BIOL 306ADInstruments Physiology Labs</summary>
+## AdInstruments Labs for BIOL 306
 
 1. [Intro to LabChart](./IntroductionToLabChart/IntroductiontoLabChart.md)
     + [notebook](./IntroductionToLabChart/IntroductiontoLabChart_Notebook.md)
@@ -30,4 +27,3 @@ permalink: /labtoc/
     + [notebook](./DiveResponse/DiveResponse_notebook.md)
     + [doc](./DiveResponse/DiveResponse_notebook.docx)
 
-</details>

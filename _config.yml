@@ -52,6 +52,7 @@ minima:
 theme: minima
 header_pages:
    - index.md
+   - Labs/473Labs/BIOL473_toc.md
    - Labs/ADInstrumentsLabs/BIOL306_toc.md
 #   - index_image.md
 #   - about.md
