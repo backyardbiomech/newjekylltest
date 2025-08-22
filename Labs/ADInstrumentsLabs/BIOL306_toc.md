@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "306 Lab Table of contents"
+title: "BIOL306 Lab Table of contents"
 math: mathjax
 permalink: /306labtoc/
 ---
