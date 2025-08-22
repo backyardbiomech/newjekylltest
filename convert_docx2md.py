@@ -225,7 +225,7 @@ def main(docx_path_str):
 
 if __name__ == "__main__":
     # Path to the input .docx file
-    docx_path = "/Users/jacksonbe3/Library/CloudStorage/Box-Box/A&P lab materials/ADInstrumentsLabs/Dive Response Mac/Student Protocol/Dive Response Student Protocol Mac.docx"
+    docx_path = "/Users/jacksonbe3/Library/CloudStorage/Box-Box/A&P lab materials/ADInstrumentsLabs/ECG & Heart Sounds Mac/Student Protocol/ECG & Heart Sounds Student Protocol Mac.docx"
     main(docx_path)
     
     
