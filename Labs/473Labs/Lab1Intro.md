@@ -16,11 +16,11 @@ In this lab, you will learn how to use video analysis software to analyze motion
 
 ## Activity 2
 Now that you have observed the motion, you will learn how to use video analysis software to measure the motion. 
-+ Use the windows search bar to search for `Anaconda`. Open the `Anaconda Command Prompt` application.
-+ In the command prompt, type `conda activate argus` and hit enter. 
-+ Then type `argus-gui` and hit enter. This will open the Argus application. Note that you can read the full user manual for Argus at [https://github.com/backyardbiomech/argus_gui/blob/main/docs/user-guide.md](https://github.com/backyardbiomech/argus_gui/blob/main/docs/user-guide.md). You might want to open that in a tab in your browser for reference, but the instructions below should get you started.
++ Hit `ctrl-R`, type `cmd`, and hit `enter`. That will open the command line.
++ Type `source argus_env\Scripts\activate` and `enter`
++ Then type `argus-gui` and hit enter. This will open the Argus application (be patient with it opening). Note that you can read the full user manual for Argus at [https://github.com/backyardbiomech/argus_gui/blob/main/docs/user-guide.md](https://github.com/backyardbiomech/argus_gui/blob/main/docs/user-guide.md). You might want to open that in a tab in your browser for reference, but the instructions below should get you started.
 + The first tab in the Argus window is the `Clicker` tab. Click the `+` button to add a new video. Navigate to the `Lab 1` folder on the desktop and select the video file you watched earlier.
-+ Click on `Go`. That will open the video in a new window.
++ Click on `Go`. That will open the video in a new window. Don't click it more than once! Be patient as it opens the video.
 + In this window, rather than playing the video, you can click on the video to mark points. Starting off, you can mark one point per frame by clicking on it, which will then also advance a frame. You can then click again to mark the same object in the that frame, and so on. 
 + You can go back a frame with the `b` key. If that frame is already marked, then you can move the mark by just clicking where you want the mark. 
 + You can advance by 50 frames with `shift-F` and go back by 50 frames with `shift-B`.
