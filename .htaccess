@@ -1,0 +1,11 @@
+# Prevent search engine indexing at server level
+<IfModule mod_headers.c>
+    Header set X-Robots-Tag "noindex, nofollow, noarchive, nosnippet, noimageindex"
+</IfModule>
+
+# Block common search engine bots
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{HTTP_USER_AGENT} (googlebot|bingbot|slurp|duckduckbot|baiduspider|yandexbot|facebookexternalhit|twitterbot) [NC]
+    RewriteRule .* - [R=403,L]
+</IfModule>

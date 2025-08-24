@@ -12,9 +12,17 @@ mermaid: 5 theme options.
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐬</text></svg>">
 
 {% comment %}
-block search indexing
+block search indexing - Enhanced to prevent all search engine indexing
 {% endcomment %}
-<meta name="robots" content="noindex">
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+<meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+<meta name="bingbot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+<meta name="slurp" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+<meta name="duckduckbot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+<meta name="baiduspider" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+<meta name="yandexbot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+<meta name="facebookexternalhit" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+<meta name="twitterbot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
 
 {% if page.math=="katex" %}
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css"

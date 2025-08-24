@@ -65,6 +65,16 @@ relative_links:
   enabled: true
   collections: true
 
-plugins:
- - jekyll-feed
- - jekyll-seo-tag
+# Include robots.txt in the build
+include:
+  - robots.txt
+  - .htaccess
+
+# Disable SEO to prevent search engine indexing
+# plugins:
+#  - jekyll-feed
+#  - jekyll-seo-tag
+
+# Explicitly disable search engine indexing
+robots: noindex, nofollow, noarchive, nosnippet, noimageindex
+noindex: true
